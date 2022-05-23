@@ -1,7 +1,7 @@
-@font-face {font-family: Minecraftia; src: ('assets/Minecraftia.ttf')}
+@font-face {font-family: Mojangles; src: ('assets/Mojangles.ttf')}
 
 * {
-    font-family: Minecraftia;
+    font-family: Mojangles;
     overflow: hidden;
 }
 .btn {
