@@ -27,6 +27,7 @@ body {
     background-color: #b6b6b6;
     border-image: url('assets/guimenu.png') 10%;
     padding: 5vh;
+    image-rendering: pixelated;
 }
 .center {
     text-align: center;

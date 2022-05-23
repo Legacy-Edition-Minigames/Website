@@ -6,3 +6,7 @@ function switchtab() {
     }
     
 }
+
+var audio = new Audio('http://104.247.112.12/assets/menu2.ogg');
+audio.loop =true;
+audio.play();
