@@ -1,0 +1,77 @@
+@font-face {font-family: Minecraftia; src: ('assets/Minecraftia.ttf')}
+
+* {
+    font-family: Minecraftia;
+    overflow: hidden;
+}
+.btn {
+   image-rendering:pixelated;
+   -webkit-user-drag: none;
+   cursor: pointer;
+}
+body {
+    font-size: 24;
+    animation: slide 60s linear infinite;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.35) ), url("assets/TU31.webp");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat:repeat-x;
+    backdrop-filter: blur(10px);
+}
+.guibox {
+    border: 2.5vh solid transparent;
+    margin: 5px;
+    border-radius: 7vh;
+    background-color: #b6b6b6;
+    border-image: url('assets/guimenu.png') 10%;
+    padding: 5vh;
+}
+.center {
+    text-align: center;
+    max-width: 100%;
+}
+.supercenter {
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%,-50%);
+}
+
+.footer {
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: #ffffffaa;
+  text-align: center;
+}
+
+cy {
+    text-shadow: 0.43vh 0.43vh #3F3F15;
+    color: #FFFF55;
+    font-size: 32
+}
+a {
+    color: #5555FF;
+    text-shadow: 3px 3px #15153Fed;
+    text-decoration: none;
+}
+
+.panorama {
+    background-image: url("assets/TU31.webp");
+    background-repeat:repeat-x;
+    background-size: cover;
+    background-attachment: fixed;
+    animation: slide 5s linear infinite;
+}
+
+@keyframes slide {
+    0% {
+        background-position: 0;
+    }
+    100% {
+        background-position: 156.5%
+    }
+  }
