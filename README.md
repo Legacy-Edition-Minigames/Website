@@ -13,3 +13,5 @@ You can view the live site at [minigames.derpbox.xyz](http://minigames.derpbox.x
 Original LEM website - [DBTDerpbox](https://github.com/DBTDerpbox)
 
 Rewrite & adding usage of CSS and JS - [ixNoah](https://github.com/NoahTheNerd)
+
+Making some design changes and fixing a lot of issues - Pedro270707(AndroidDr#5127)

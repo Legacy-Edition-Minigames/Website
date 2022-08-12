@@ -3,23 +3,27 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        
-        <!--<div class="panorama"></div>-->
-
-        <div class="guibox center supercenter" style="width: 45%; top: 28%">
-            <p style="line-height:7vh"><cy>Legacy Edition Minigames</cy></p>
-                LEM is a set of open source LCE Minigame remakes!
+	<audio id="music">
+		<source src="assets/menu2.ogg" type="audio/ogg">
+	</audio>
+	<audio id="click">
+		<source src="assets/click.ogg" type="audio/ogg">
+	</audio>
+	<div class="scroll">
+        <div class="guibox center supercenter" style="margin-top: 2em; width: 60%; font-size: 0.75em;">
+			<p style="line-height: 4em"><cy><b>Legacy Edition Minigames</b></cy></p>
+                LEM is a set of open source LCE<sup><span title="Legacy Console Edition" style="text-decoration: underline #000 dotted; cursor: help;"\>?</sup> mini game remakes!
             These are meant to be used in Minecraft: Java Edition!<br>
-            <a href="/rules">Server Rules</a><br>
-            <img src="assets/btn-github.png" style="height: 7vh" class="btn" onclick="window.open(`https://github.com/DBTDerpbox/Legacy-Edition-Battle`, '_blank').focus();"> <img src="assets/btn-patreon.png" onclick="window.open(`https://www.patreon.com/DBTDerpbox`, '_blank').focus();" style="height: 7vh" class="btn">
-        </div>
-            <br>
-            <div class="guibox supercenter center" style="width: 45%; top: 73%">
-            Menu Server: minigames.derpbox.xyz<br>
-            Battle Server: leb.derpbox.xyz<br>
-            Tumble Server: let.derpbox.xyz (Not available)<br>
-Glide Server: leg.derpbox.xyz (Not available)<br>
-        </div>
+            <a href="/rules">Server Rules</a> / <a href="/lunar">Why can't I use Lunar Client?</a><br>
+            <img src="assets/btn-github.png" style="height: 80px" class="btn" onmouseover="this.src='assets/btn-github-hover.png'" onmouseout="this.src='assets/btn-github.png'" onclick="window.open(`https://github.com/DBTDerpbox/Legacy-Edition-Battle`, '_blank').focus();"> <img src="assets/btn-patreon.png" onmouseover="this.src='assets/btn-patreon-hover.png'" onmouseout="this.src='assets/btn-patreon.png'" onclick="window.open(`https://www.patreon.com/DBTDerpbox`, '_blank').focus();" style="height: 80px" class="btn">
+		</div>
+		<div class="guibox center supercenter" style="margin-top: 1em; width: 60%; font-size: 0.75em;">
+			<b><span id="easter-egg" onclick="easterEgg()">Menu Server:</span></b> minigames.derpbox.xyz<br>
+            <b>Battle Server:</b> leb.derpbox.xyz<br>
+            <b>Tumble Server:</b> let.derpbox.xyz <span style="color: #ff5555">(Unavailable)</span><br>
+			<b>Glide Server:</b> leg.derpbox.xyz <span style="color: #ff5555">(Unavailable)</span><br>
+		</div>
+	</div>
     </body>
     <script src="script.js"></script>
 </html>
