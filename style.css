@@ -88,6 +88,29 @@ a:hover {
     text-decoration: underline;
 }
 
+.lem-header {
+    font-weight: bold;
+    text-shadow: 0.125em 0.125em #3F3F15;
+    color: #FFFF55;
+    font-size: 32
+}
+
+#lem-subheader:before {
+	content: '--- ';
+}
+#lem-subheader:after {
+	content: ' ---';
+}
+
+@media screen and (max-width: 1000px){
+	#lem-subheader:before {
+		content: '';
+	}
+	#lem-subheader:after {
+		content: '';
+	}
+}
+
 .panorama {
     background-image: url("assets/TU31.webp");
     background-repeat:repeat-x;
