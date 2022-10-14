@@ -1,30 +1,19 @@
-<html>
-    <head>
-        <link rel="stylesheet" href="style.css">
-		<link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
-    </head>
-    <body>
-	<audio id="music">
-		<source src="assets/menu2.ogg" type="audio/ogg">
-	</audio>
-	<audio id="click">
-		<source src="assets/click.ogg" type="audio/ogg">
-	</audio>
-	<div class="scroll">
-        <div class="guibox center supercenter" style="margin-top: 2em; width: 60%; font-size: 0.75em;">
-			<p class="lem-header">Legacy Edition Minigames</p>
-                LEM is a set of open source LCE<sup><span title="Legacy Console Edition" style="text-decoration: underline #000 dotted; cursor: help;"\>?</sup> mini game remakes!
-				These are meant to be used in Minecraft: Java Edition!<br>
-            <a href="/rules">Server Rules</a> / <a href="/lunar">Why can't I use Lunar Client?</a><br>
-            <img src="assets/btn-github.png" style="height: 80px" class="btn" onmouseover="this.src='assets/btn-github-hover.png'" onmouseout="this.src='assets/btn-github.png'" onclick="window.open(`https://github.com/DBTDerpbox/Legacy-Edition-Battle`, '_blank').focus();"> <img src="assets/btn-patreon.png" onmouseover="this.src='assets/btn-patreon-hover.png'" onmouseout="this.src='assets/btn-patreon.png'" onclick="window.open(`https://www.patreon.com/DBTDerpbox`, '_blank').focus();" style="height: 80px" class="btn">
-		</div>
-		<div class="guibox center supercenter" style="margin-top: 1em; width: 60%; font-size: 0.75em;">
-			<b><span id="easter-egg" onclick="easterEgg()">Menu Server:</span></b> minigames.derpbox.xyz<br>
-            <b>Battle Server:</b> leb.derpbox.xyz<br>
-            <b>Tumble Server:</b> let.derpbox.xyz <span style="color: #ff5555">(Unavailable)</span><br>
-			<b>Glide Server:</b> leg.derpbox.xyz <span style="color: #ff5555">(Unavailable)</span><br>
-		</div>
-	</div>
-    </body>
-    <script src="script.js"></script>
-</html>
+---
+layout: default
+---
+<link rel="preload" as="image" href="/assets/btn-github-hover.png">
+<link rel="preload" as="image" href="/assets/btn-patreon-hover.png">
+
+<div class="guibox center">
+	<h1>Legacy Edition Minigames</h1>
+		LEM is a set of open source LCE<sup><span title="Legacy Console Edition" style="text-decoration: underline #000 dotted; cursor: help;"\>?</sup> mini game remakes!
+		These are meant to be used in Minecraft: Java Edition!<br>
+    <a href="/rules">Server Rules</a> / <a href="/lunar">Why can't I use Lunar Client?</a><br>
+    <a href="https://github.com/DBTDerpbox/Legacy-Edition-Battle"><span class="github-button"></span></a> <a href="https://www.patreon.com/DBTDerpbox"><span class="patreon-button"></span></a>
+</div>
+<div class="guibox center">
+	<b><span id="easter-egg" onclick="easterEgg()">Menu Server:</span></b> minigames.derpbox.xyz<br>
+    <b>Battle Server:</b> leb.derpbox.xyz<br>
+    <b>Tumble Server:</b> let.derpbox.xyz <span style="color: #ff5555">(Unavailable)</span><br>
+	<b>Glide Server:</b> leg.derpbox.xyz <span style="color: #ff5555">(Unavailable)</span><br>
+</div>
