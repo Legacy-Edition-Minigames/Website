@@ -1,18 +1,20 @@
+<!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="/style.css">
-		<link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+        <link rel="stylesheet" href="{{ site.baseurl }}/style.css">
+		<link rel="icon" type="image/x-icon" href="{{ site.baseurl }}/assets/favicon.ico">
+		<title>{{ page.title }} - Legacy Edition Minigames</title>
     </head>
     <body>
 	<audio id="music">
-		<source src="/assets/menu2.ogg" type="audio/ogg">
+		<source src="{{ site.baseurl }}/assets/menu2.ogg" type="audio/ogg">
 	</audio>
 	<audio id="click">
-		<source src="/assets/click.ogg" type="audio/ogg">
+		<source src="{{ site.baseurl }}/assets/click.ogg" type="audio/ogg">
 	</audio>
-	<div class="scroll">
+	<div class="container">
         {{ content }}
 	</div>
     </body>
-    <script src="script.js"></script>
+    <script src="{{ site.baseurl }}/script.js"></script>
 </html>

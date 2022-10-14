@@ -22,7 +22,7 @@ title: Legacy Edition Minigames
 description: >- # this means to ignore newlines until "baseurl:"
   LEM is a set of open source LCE? mini game remakes!
   These are meant to be used in Minecraft: Java Edition!
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/LEM-Website" # the subpath of your site, e.g. /blog
 url: "https://minigames.derpbox.xyz" # the base hostname & protocol for your site, e.g. http://example.com
 pmc_username: Derpbox
 patreon_username: DBTDerpbox

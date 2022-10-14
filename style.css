@@ -20,62 +20,34 @@
   font-weight: bold;
 }
 
-* {
-    font-family: 'Minecraft';
-    overflow: hidden;
-}
-.btn {
-   image-rendering:pixelated;
-   -webkit-user-drag: none;
-   cursor: pointer;
-}
 body {
-    font-size: 24;
-    animation: slide 60s linear infinite;
-    margin: 0;
-    padding: 0;
-    background-image: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.35) ), url("assets/TU31.webp");
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat:repeat-x;
-    backdrop-filter: blur(10px);
+	position: absolute;
+	min-width: 100%;
+	min-height: 100%;
+	font-family: 'Minecraft', sans-serif;
+	background-image: url('assets/TU31.png');
+	background-size: cover;
+	background-attachment: fixed;
+	backdrop-filter: blur(10px);
+	margin: 0;
+	padding: 0;
+	animation: slide 180s linear infinite;
+	background-repeat: repeat-x;
 }
-.guibox {
-    border-image: url('assets/guimenu.png');
-    border-image-slice: 128 128 fill;
-    border-image-width: 64px;
-    padding: 5vh;
-    image-rendering: pixelated;
-    text-align: center;
-	width: 60%;
-	font-size: 0.75em;
-	margin-top: 10px;
-}
+
 .center {
-    text-align: center;
-    max-width: 100%;
 	margin-left: auto;
 	margin-right: auto;
-}
-.supercenter {
-    position: relative;
-	margin: auto;
+	text-align: center;
 }
 
-.scroll {
-    position: relative;
-    height: 100%;
-    overflow: auto;
-	padding-top: 10px;
-}
-
-.footer {
-    position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  color: #ffffffaa;
-  text-align: center;
+.guibox {
+	font-family: 'Minecraft', sans-serif;
+	padding: 5vh;
+	border-image: url('assets/guimenu.png');
+	border-image-slice: 128 128 fill;
+    border-image-width: 64px;
+	margin-top: 10px;
 }
 
 .github-button, .patreon-button {
@@ -102,25 +74,11 @@ body {
 	background-image: url('assets/btn-patreon-hover.png');
 }
 
-cy {
-    text-shadow: 0.125em 0.125em #3F3F15;
-    color: #FFFF55;
-    font-size: 32
-}
-a {
-    color: #5555FF;
-    text-decoration: none;
-    line-height: 200%;
-}
-a:hover {
-    text-decoration: underline;
-}
-
 h1 {
-    font-weight: bold;
-    text-shadow: 0.125em 0.125em #3F3F15;
+	font-weight: bold;
+    text-shadow: 0.125em 0.125em #3f3f15;
     color: #FFFF55;
-    font-size: 32
+    font-size: 32;
 }
 
 h2:before {
@@ -139,19 +97,26 @@ h2:after {
 	}
 }
 
-.panorama {
-    background-image: url("assets/TU31.webp");
-    background-repeat:repeat-x;
-    background-size: cover;
-    background-attachment: fixed;
-    animation: slide 5s linear infinite;
+.container {
+	padding-top: 10px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+}
+
+@media screen and (max-width: 1100px){
+	.container {
+		width: 90%;
+	}
 }
 
 @keyframes slide {
     0% {
         background-position: 0;
     }
+	
     100% {
-        background-position: 156.5%
+        background-position: 150%;
     }
   }
