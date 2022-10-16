@@ -4,18 +4,18 @@ title: "Your post title"
 image: /assets/post-image-placeholder.png
 permalink: /blog/link-to-your-post
 main-text: | 
-	This is a sample post!
-	
-	You can add multiple lines with a pipe, like I did with this one.
-	If your post only has a single line (generally HTML posts), use quotes (like the title variable).
-	
-	You can also use HTML instead of markdown by setting the `markdown` variable to `false`.
-	Not setting it or setting it to a non-false value will keep markdown enabled.
-	
-	Post names also have naming conventions:
-	YYYY-MM-DD-post-name.markdown
-	
-	I suggest all posts have the variables `title`, `image` and `main-text`. `layout` is required and should always be set to `post`.
-	`permalink` is also required. `markdown` is not required, and not setting it will set it automatically to `true`.
+  This is a sample post!
+  
+  You can add multiple lines with a pipe, like I did with this one.
+  If your post only has a single line (generally HTML posts), use quotes (like the title variable).
+  
+  You can also use HTML instead of markdown by setting the `markdown` variable to `false`.
+  Not setting it or setting it to a non-false value will keep markdown enabled.
+  
+  Post names also have naming conventions:
+  YYYY-MM-DD-post-name.markdown
+  
+  I suggest all posts have the variables `title`, `image` and `main-text`. `layout` is required and should always be set to `post`.
+  `permalink` is also required. `markdown` is not required, and not setting it will set it automatically to `true`.
 markdown: true
 ---
