@@ -14,3 +14,7 @@ function easterEgg() {
 		easterEggClicks++;
 	}
 }
+
+function clickSound() {
+	document.getElementById("click").play();
+}
