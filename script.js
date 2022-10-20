@@ -3,6 +3,8 @@ var panoramaPosition = 0;
 
 if (localStorage.panoramaMovement == undefined) {
 	localStorage.panoramaMovement = "true";
+	panoramaPosition = panoramaPosition - 6000;
+	document.body.style.backgroundPosition = panoramaPosition + "px";
 } else if (localStorage.panoramaMovement == "true") {
 	panoramaPosition = panoramaPosition - 6000;
 	document.body.style.backgroundPosition = panoramaPosition + "px";
