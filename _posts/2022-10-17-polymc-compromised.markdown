@@ -9,9 +9,11 @@ main-text: |
   If you have PolyMC installed uninstall it ASAP. The longer it is installed the more at risk you are.
 
   If you have used PolyMC in the past or use it now, your Microsoft account you've used to sign-in to PolyMC could also be at risk, make sure you remove PolyMC's access from your Microsoft account here: [https://account.live.com/consent/Manage](https://account.live.com/consent/Manage)
+  
+  ~~For the time being, use other launchers, MultiMC, Vanilla, etc.. Anything that is trusted is better than the risk PolyMC poses currently.~~ See the update below for information of what to use instead of PolyMC
 
-  For the time being, use other launchers, MultiMC, Vanilla, etc.. Anything that is trusted is better than the risk PolyMC poses currently.
+  UPDATE: The maintainers & contributors from PolyMC that were kicked out have created their own replacement for PolyMC, Prism Launcher.
 
-  (This blogpost will be updated when this situation has been resolved)
+  If you're looking for what to do now, check out Prism Launcher's latest release [on GitHub!](https://github.com/PrismLauncher/PrismLauncher/releases)
 markdown: true
 ---
