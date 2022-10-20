@@ -14,6 +14,6 @@ main-text: |
 
   UPDATE: The maintainers & contributors from PolyMC that were kicked out have created their own replacement for PolyMC, Prism Launcher.
 
-  If you're looking for what to do now, check out Prism Launcher's latest release [on GitHub!](https://github.com/PrismLauncher/PrismLauncher/releases)
+  If you're looking for what to do now, check out Prism Launcher's latest release on [their website!](https://prismlauncher.org/download/)
 markdown: true
 ---
