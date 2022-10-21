@@ -4,7 +4,7 @@ title: "URGENT: PolyMC is Compromised"
 image: /assets/blog/polymc-compromised.png
 permalink: /blog/polymc-compromised
 main-text: | 
-  PolyMC's maintainer has gone rouge and compromised the project, and there is a chance they will push malicous code via an update **even if autoupdate is disabled.**
+  PolyMC's maintainer has gone rogue and compromised the project, and there is a chance they will push malicous code via an update **even if autoupdate is disabled.**
 
   If you have PolyMC installed uninstall it ASAP. The longer it is installed the more at risk you are.
 
