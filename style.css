@@ -21,18 +21,40 @@
 }
 
 body {
-	position: absolute;
+	position: relative;
 	min-width: 100%;
 	min-height: 100%;
 	font-family: 'Minecraft', sans-serif;
 	background-image: url('assets/TU31.png');
 	background-size: cover;
 	background-attachment: fixed;
-	backdrop-filter: blur(10px);
 	margin: 0;
 	padding: 0;
-	animation: slide 180s linear infinite;
 	background-repeat: repeat-x;
+	transition: background-position 60s;
+	transition-timing-function: linear;
+}
+
+.backdrop-blur {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	backdrop-filter: blur(10px);
+	z-index: -30;
+}
+
+.panorama-button {
+	position: fixed;
+	bottom: 4px;
+	left: 4px;
+	height: 40px;
+	width: 40px;
+	background-image: url("/assets/btn-panorama.png");
+	cursor: pointer;
+}
+
+.panorama-button:hover {
+	background-image: url("/assets/btn-panorama-hover.png");
 }
 
 .center {
@@ -44,7 +66,7 @@ body {
 .guibox {
 	font-family: 'Minecraft', sans-serif;
 	padding: 5vh;
-	border-image: url('assets/guimenu.png');
+	border-image: url('/assets/guimenu.png');
 	border-image-slice: 128 128 fill;
     border-image-width: 64px;
 	margin-top: 10px;
@@ -149,13 +171,3 @@ h2:after {
 		background-image: url('assets/btn-minecraft-small-hover.png');
 	}
 }
-
-@keyframes slide {
-    0% {
-        background-position: 0;
-    }
-	
-    100% {
-        background-position: 150%;
-    }
-  }
