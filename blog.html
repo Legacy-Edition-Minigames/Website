@@ -4,6 +4,13 @@ title: "Blog"
 ---
 
 <style>
+	.blog-posts {
+		display: grid;
+		grid-template-columns: 240px auto;
+		gap: 10px;
+		text-align: left;
+	}
+	
 	.post-text {
 		display: -webkit-box;
 		-webkit-box-orient: vertical;
@@ -13,6 +20,31 @@ title: "Blog"
 		background-clip: text;
 		background-image: linear-gradient(#000, transparent);
 		color: transparent;
+		max-height: 6em;
+	}
+	
+	.post-image {
+		height: 200px;
+		width: 240px;
+		display: inline-block;
+		image-rendering: pixelated;
+		border: 2px solid black;
+	}
+	
+	.post-description {
+		position: relative;
+		display: inline-block;
+		vertical-align: top;
+	}
+	
+	.post-description h3 {
+		display: inline;
+		white-space: wrap;
+	}
+	
+	.post-link {
+		position: absolute;
+		bottom: 0;
 	}
 	
 	@media screen and (max-width: 900px){
@@ -40,13 +72,13 @@ title: "Blog"
 
 <div class="guibox center">
 	<h1>Blog</h1>
-	<div style="text-align: left; display: grid; grid-template-columns: 240px auto; gap: 10px;">
+	<div class="blog-posts">
 		{%- for post in site.posts -%}
-			<img src="{% if post.image %}{{ post.image }}{% else %}{{ site.baseurl }}/assets/post-image-placeholder.png{% endif %}" style="height: 200px; width: 240px; display: inline-block; image-rendering: pixelated; border: 2px solid black;">
-			<div style="display: inline-block; vertical-align: top;">
+			<img src="{% if post.image %}{{ post.image }}{% else %}{{ site.baseurl }}/assets/post-image-placeholder.png{% endif %}" class="post-image">
+			<div class="post-description">
 				<h3 style="display: inline;">{{ post.title }}</h3> <span style="color: #777777">{{ post.date | date: "%B" }} {{ post.date | date: "%d" | plus:'0' }}, {{ post.date | date: "%Y" }}</span><br>
 				<span class="post-text">{%- if post.markdown != false -%}{{ post.main-text | markdownify }}{%- else -%}{{ post.main-text }}{%- endif -%}</span>
-				<a href="{{ post.permalink }}" class="minecraft-button" style="margin-top: 15px;">Read Post</a>
+				<a href="{{ post.permalink }}" class="minecraft-button post-link">Read Post</a>
 			</div>
 		{%- endfor -%}
 	</div>
