@@ -31,8 +31,7 @@ body {
 	margin: 0;
 	padding: 0;
 	background-repeat: repeat-x;
-	transition: background-position 60s;
-	transition-timing-function: linear;
+	animation: panorama 60s linear infinite;
 }
 
 .backdrop-blur {
@@ -169,5 +168,15 @@ h2:after {
 	
 	.minecraft-button:hover {
 		background-image: url('assets/btn-minecraft-small-hover.png');
+	}
+}
+
+@keyframes panorama {
+	0% {
+		background-position: 0;
+	}
+	
+	100% {
+		background-position: calc(100vh / 144 * -820);
 	}
 }
