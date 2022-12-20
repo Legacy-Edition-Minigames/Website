@@ -5,11 +5,12 @@ var elements = document.getElementsByClassName("minecraft-button");
 if (elements.length > 0) {
   for (var i = 0; i < elements.length; i++) {
     var link = elements[i].getAttribute("href");
-    elements[i].setAttribute("onclick", "clickSound(); window.location = '" + link + "';");
+    elements[i].setAttribute("onclick", "clickSound(); setTimeout(function timeout() { window.location = '" + link + "'; }, 100);");
     elements[i].setAttribute("onmouseover", "hoverSound()");
     elements[i].removeAttribute("href");
   }
 }
+
 
 if (localStorage.panoramaMovement == undefined) {
 	localStorage.panoramaMovement = "true";
