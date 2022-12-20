@@ -33,17 +33,16 @@ function easterEgg() {
 	}
 }
 
+
 function clickSound() {
-  var clickSound = document.getElementById("click");
-  var copyofclickSound = hoverSound.cloneNode();
-  copyofclickSound.play();
+  var clickSound = new Audio("{{ site.baseurl }}/assets/click.ogg");
+  clickSound.play();
 }
 
 
 function hoverSound() {
-  var hoverSound = document.getElementById("hover");
-  var copyofhoverSound = hoverSound.cloneNode();
-  copyofhoverSound.play();
+  var hoverSound = new Audio("{{ site.baseurl }}/assets/hover.ogg");
+  hoverSound.play();
 }
 
 function triggerPanoramaMovement() {
