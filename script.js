@@ -34,13 +34,17 @@ function easterEgg() {
 }
 
 function clickSound() {
-	document.getElementById("click").play();
+  var clickSound = document.getElementById("click");
+  var copyofclickSound = hoverSound.cloneNode();
+  copyofclickSound.play();
 }
+
 
 function hoverSound() {
-	document.getElementById("hover").play();
+  var hoverSound = document.getElementById("hover");
+  var copyofhoverSound = hoverSound.cloneNode();
+  copyofhoverSound.play();
 }
-
 
 function triggerPanoramaMovement() {
 	if (localStorage.panoramaMovement == "false") {
