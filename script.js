@@ -1,6 +1,17 @@
 var easterEggClicks = 0;
 var panoramaPosition = 0;
 
+var elements = document.getElementsByClassName("minecraft-button");
+if (elements.length > 0) {
+  for (var i = 0; i < elements.length; i++) {
+    var link = elements[i].getAttribute("href");
+    elements[i].setAttribute("onclick", "clickSound(); setTimeout(function timeout() { window.location = '" + link + "'; }, 100);");
+    elements[i].setAttribute("onmouseover", "hoverSound()");
+    elements[i].removeAttribute("href");
+  }
+}
+
+
 if (localStorage.panoramaMovement == undefined) {
 	localStorage.panoramaMovement = "true";
 } else if (localStorage.panoramaMovement == "false") {
@@ -22,8 +33,16 @@ function easterEgg() {
 	}
 }
 
+
 function clickSound() {
-	document.getElementById("click").play();
+  var clickSound = new Audio("/assets/click.ogg");
+  clickSound.play();
+}
+
+
+function hoverSound() {
+  var hoverSound = new Audio("/assets/hover.ogg");
+  hoverSound.play();
 }
 
 function triggerPanoramaMovement() {
