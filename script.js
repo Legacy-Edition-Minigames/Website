@@ -1,6 +1,14 @@
 var easterEggClicks = 0;
 var panoramaPosition = 0;
 
+var elements = document.getElementsByClassName("minecraft-button center");
+if (elements.length > 0) {
+  for (var i = 0; i < elements.length; i++) {
+    elements[i].setAttribute("onclick", "clickSound()");
+    elements[i].setAttribute("onmouseover", "hoverSound()");
+  }
+}
+
 if (localStorage.panoramaMovement == undefined) {
 	localStorage.panoramaMovement = "true";
 } else if (localStorage.panoramaMovement == "false") {
@@ -25,6 +33,11 @@ function easterEgg() {
 function clickSound() {
 	document.getElementById("click").play();
 }
+
+function hoverSound() {
+	document.getElementById("hover").play();
+}
+
 
 function triggerPanoramaMovement() {
 	if (localStorage.panoramaMovement == "false") {
