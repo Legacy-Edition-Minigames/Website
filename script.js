@@ -35,13 +35,13 @@ function easterEgg() {
 
 
 function clickSound() {
-  var clickSound = new Audio("{{ site.baseurl }}/assets/click.ogg");
+  var clickSound = new Audio("/assets/click.ogg");
   clickSound.play();
 }
 
 
 function hoverSound() {
-  var hoverSound = new Audio("{{ site.baseurl }}/assets/hover.ogg");
+  var hoverSound = new Audio("/assets/hover.ogg");
   hoverSound.play();
 }
 
