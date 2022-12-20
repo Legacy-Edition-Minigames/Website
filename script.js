@@ -4,8 +4,10 @@ var panoramaPosition = 0;
 var elements = document.getElementsByClassName("minecraft-button");
 if (elements.length > 0) {
   for (var i = 0; i < elements.length; i++) {
-    elements[i].setAttribute("onclick", "clickSound()");
+    var link = elements[i].getAttribute("href");
+    elements[i].setAttribute("onclick", "clickSound(); window.location = '" + link + "';");
     elements[i].setAttribute("onmouseover", "hoverSound()");
+    elements[i].removeAttribute("href");
   }
 }
 
