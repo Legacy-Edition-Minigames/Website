@@ -12,7 +12,7 @@ main-text: |
 
   If you have connection issues with the main US server, this server located in Germany might be for you.
 
-  There are 2 days to connect:
+  There are 2 ways to connect:
   
   1. Joining the server address **germany.leb.derpbox.xyz** (Recommended!)
 
