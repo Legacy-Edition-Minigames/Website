@@ -2,15 +2,26 @@
 layout: default
 title: "Home"
 ---
+<link rel="preload" as="image" href="{{ site.baseurl }}/assets/btn-github-hover.png">
+<link rel="preload" as="image" href="{{ site.baseurl }}/assets/btn-patreon-hover.png">
 
 <div class="guibox center">
-  <h1>LEM is under hiatus.</h1>
-
-  <p><strong>The server is temporarily unavailable.</strong></p>
-  <p>This is being done due to this place not being ready at all for the attention it has received, this has resulted in a massive lack of proper moderation nor a system to properly handle it.</p>
-  <p>When the project goes public again expect rules to be enforced way more strictly, Toxicity and such will not be handled as leniently as it is now. If you plan on returning later please keep this in mind.</p>
-  <p><strong>What happens now?</strong></p>
-  <p>The Discord and Minecraft servers are currently closed, they will be reopened once the hiatus is over.</p>
-  <p>Development of the project <b>will not be stopped</b>, this is just to properly prepare this server for actual community management and more stable code. In its current state it lacks any real community management and the code is still very buggy.</p>
-  <p><strong>There is no ETA for when the hiatus will be over.</strong></p>
+	<h1>Legacy Edition Minigames</h1>
+		<p>LEM is a set of open source LCE<sup><span title="Legacy Console Edition" style="text-decoration: underline #000 dotted; cursor: help;"\>?</sup> mini game remakes!
+		These are meant to be used in Minecraft: Java Edition!</p>
+	<div class="button-list">
+		<a class="minecraft-button center" href="{{ site.baseurl }}/blog">Blog</a>
+		<a class="minecraft-button center" href="{{ site.baseurl }}/rules">Server Rules</a>
+		<a class="minecraft-button center" href="{{ site.baseurl }}/lunar">Why can't I use Lunar Client?</a>
+		<a class="minecraft-button center" href="{{ site.baseurl }}/donate">Donate</a>
+		<a class="minecraft-button center" href="https://status.derpbox.xyz">Server Status</a>
+	</div>
+    <a href="https://github.com/Legacy-Edition-Minigames/Minigames" target='_blank' onclick="clickSound()"><span class="github-button"></span></a>
+</div>
+<div class="guibox center">
+	<b><span id="easter-egg" onclick="easterEgg()">Menu Server:</span></b> lem.derpbox.xyz<br>
+    (North America) <b>Battle Server:</b> leb.derpbox.xyz<br>
+    (Germany) <b>Battle Server:</b> germany.leb.derpbox.xyz<br>
+    <b>Tumble Server:</b> let.derpbox.xyz <span style="color: #ff5555">(Work in Progress)</span><br>
+	<b>Glide Server:</b> leg.derpbox.xyz <span style="color: #ff5555">(Work in Progress)</span><br>
 </div>
