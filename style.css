@@ -71,6 +71,18 @@ body {
 	margin-top: 10px;
 }
 
+.logo {
+	display: inline-block;
+	height: 188px;
+	width: 720px;
+	image-rendering: pixelated;
+	background-size: cover;
+}
+
+.logo {
+	background-image: url('assets/logo.png');
+}
+
 .github-button, .patreon-button {
 	display: inline-block;
 	height: 80px;
