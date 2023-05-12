@@ -3,6 +3,7 @@ layout: post
 title: "R26.4 Now Available!"
 image: /assets/blog/r26-4-released.png
 permalink: /blog/r26-4-released
+type: blog
 main-text: | 
   A new resource version is now available!
   

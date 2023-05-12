@@ -3,6 +3,7 @@ layout: post
 title: "Germany battle server now available"
 image: /assets/blog/introducing-blog.png
 permalink: /blog/germany-server-available
+type: blog
 main-text: | 
   A new battle server located in Germany is now available!
 

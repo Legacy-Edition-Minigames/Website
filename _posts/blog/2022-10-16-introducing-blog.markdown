@@ -3,6 +3,7 @@ layout: post
 title: "Introducing the LEM Blog"
 image: /assets/blog/introducing-blog.png
 permalink: /blog/introducing-blog
+type: blog
 main-text: | 
   Welcome to the LEM blog page!
   
