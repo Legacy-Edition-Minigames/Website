@@ -64,7 +64,7 @@ body {
 
 .guibox {
 	font-family: 'Minecraft', sans-serif;
-	padding: 5vh;
+	padding: 2em;
 	border-image: url('/assets/guimenu.png');
 	border-image-slice: 128 128 fill;
     border-image-width: 64px;
@@ -73,8 +73,9 @@ body {
 
 .logo {
 	display: inline-block;
-	height: 188px;
+	aspect-ratio: 720 / 188;
 	width: 720px;
+	max-width: 90%;
 	image-rendering: pixelated;
 	background-size: cover;
 }
@@ -119,6 +120,7 @@ body {
 	color: #ffffff;
 	text-shadow: 1px 1px 0 #000;
 	text-align: center;
+	cursor: pointer;
 }
 
 .minecraft-button:hover {
@@ -148,6 +150,35 @@ h2:after {
 	content: ' ---';
 }
 
+/* Credits */
+.multiple-credits-grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-areas: 	"a b"
+							"c b"
+							"d e"
+							"f g"
+							"h i";
+	gap: 5px;
+}
+
+.single-credit-flexbox {
+	display: flex;
+	gap: 10px;
+	text-align: right;
+}
+
+.single-credit-flexbox ul {
+	margin: 0;
+	list-style: none;
+	padding-left: 0;
+	text-align: left;
+}
+
+.pixelated {
+	image-rendering: pixelated;
+}
+
 @media screen and (max-width: 1000px){
 	h2:before {
 		content: '';
@@ -157,18 +188,24 @@ h2:after {
 	}
 }
 
+@media screen and (max-width: 1100px){
+	.multiple-credits-grid {
+		grid-template-areas:	"a"
+								"b"
+								"c"
+								"d"
+								"e";
+		grid-template-columns: none;
+	}
+}
+
 .container {
 	padding-top: 10px;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
 	width: 1000px;
-}
-
-@media screen and (max-width: 1100px){
-	.container {
-		width: 90%;
-	}
+	max-width: 90%;
 }
 
 @media screen and (max-width: 530px){
