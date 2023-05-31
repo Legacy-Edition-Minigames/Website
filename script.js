@@ -54,3 +54,22 @@ function triggerPanoramaMovement() {
 		localStorage.panoramaMovement = "false";
 	}
 }
+
+var d = new Date();
+var curr_month = d.getMonth() + 1;
+if (curr_month == 10) {
+	document.body.style.backgroundImage = 'url(assets/h-Panorama.png)';
+	const regularPanButtons = document.querySelectorAll('.panorama-button');
+
+	regularPanButtons[0].style.backgroundImage = 'url(assets/h-btn-panorama.png)';
+
+	regularPanButtons.forEach(button => {
+	  button.addEventListener('mouseenter', () => {
+		button.style.backgroundImage = 'url(assets/h-btn-panorama-hover.png)';
+	  });
+
+	  button.addEventListener('mouseleave', () => {
+		button.style.backgroundImage = 'url(assets/h-btn-panorama.png)';
+	  });
+	});
+}
