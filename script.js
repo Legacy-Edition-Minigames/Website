@@ -1,6 +1,14 @@
 var easterEggClicks = 0;
 var panoramaPosition = 0;
 
+///Seasonal events
+var d = new Date();
+var curr_month = d.getMonth() + 1;
+//Halloween
+if (curr_month == 10) {
+	var halloweenMode = true
+}
+
 var elements = document.getElementsByClassName("minecraft-button");
 if (elements.length > 0) {
   for (var i = 0; i < elements.length; i++) {
@@ -22,8 +30,12 @@ function easterEgg() {
 	if (easterEggClicks == 2) {
 		document.getElementById("click").play();
 		easterEggClicks++;
-		document.getElementById("music").loop = true;
-		document.getElementById("music").play();
+		var menuMusic = "music"
+		if (halloweenMode == true) {
+			var menuMusic = "musicHalloween"
+		}
+		document.getElementById(menuMusic).loop = true;
+		document.getElementById(menuMusic).play();
 		document.getElementById("easter-egg").setAttribute("style","color: #00aa00");
 	} else {
 		if (easterEggClicks < 3) {
@@ -55,9 +67,7 @@ function triggerPanoramaMovement() {
 	}
 }
 
-var d = new Date();
-var curr_month = d.getMonth() + 1;
-if (curr_month == 10) {
+if (halloweenMode == true) {
 	document.body.style.backgroundImage = 'url(assets/halloween/h-Panorama.png)';
 
 	//Panorama toggle button
