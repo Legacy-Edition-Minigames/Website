@@ -24,6 +24,8 @@ main-text: |
 
   1 - [Console-idated](https://modrinth.com/modpack/console-idated): Console-idated is another modpack that attempts to mimic the look of LCE, and has LEM compatibility with few compromises.
 
-  2 - <u>Vanilla Minecraft</u>: Vanilla Minecraft works fine on LEM with no LEM-specific issues, but Vanilla is very poorly optimized. I recommend anything listed above over Vanilla. 
+  2 - [Fabulously Optimized](https://fabulously-optimized.gitbook.io/modpack/readme/install-instructions): FO is a modpack designed to improve the performance of Minecraft significantly and works pretty well with LEM.
+
+  3 - <u>Vanilla Minecraft</u>: Vanilla Minecraft works fine on LEM with no LEM-specific issues, but Vanilla is very poorly optimized. I recommend anything listed above over Vanilla. 
 markdown: true
 ---
