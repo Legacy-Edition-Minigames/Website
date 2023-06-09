@@ -19,7 +19,7 @@ main-text: |
   
   The code is still very unstable and the moderation team is still very small. There isn't enough moderators here to be able to handle the server in a public enviornment, especially with how large the server became before the hiatus.
 
-  Currently the server is invite only (with the exception of Patreon donations) due to us not having a proper system yet to handle requests to join properly, but we should sometime soon have a proper system to allow you to request to join on the [Join page](../join).
+  If you would like to join the closed alpha, please see the [Join page](../join).
 
   We're unsure when the server will go public again, but it will likely be a long time from now.
 
