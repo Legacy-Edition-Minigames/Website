@@ -16,6 +16,6 @@ main-text: |
 
   As of writing this, the New Dimension Loader and ModTools/Modloader are available there!
   
-  Go check it out! The ip for it is **test.leb.derpbox.xyz**
+  Go check it out! The ip for it is **test.legacyminigames.xyz**
 markdown: true
 ---

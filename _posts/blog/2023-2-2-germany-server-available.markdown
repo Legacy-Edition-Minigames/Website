@@ -7,7 +7,7 @@ type: blog
 main-text: | 
   A new battle server located in Germany is now available!
 
-  The IP for this germany server is **germany.leb.derpbox.xyz**
+  The IP for this germany server is **germany.legacyminigames.xyz**
 
   ### Massive thanks for [strich3](https://github.com/strich3) for providing the server hosting!
 
@@ -15,7 +15,7 @@ main-text: |
 
   There are 2 ways to connect:
   
-  1. Joining the server address **germany.leb.derpbox.xyz** (Recommended!)
+  1. Joining the server address **germany.legacyminigames.xyz** (Recommended!)
 
   2. using /server battle_germany from the US server
 
