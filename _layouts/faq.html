@@ -1,6 +1,11 @@
 ---
 layout: default
 ---
+<head>
+	<meta content="{{ page.title }}" property="og:title">
+        <meta content="legacyminigames.xyz" property="og:site_name">
+        <meta content="{% if page.image %}{{ page.image }}{% else %}{{ site.baseurl }}/assets/post-image-placeholder.png{% endif %}" property="og:image">
+</head>
 <div class="guibox center">
 	<h1>{{ page.title }}</h1>
 	<img src="{% if page.image %}{{ page.image }}{% else %}{{ site.baseurl }}/assets/post-image-placeholder.png{% endif %}" style="width: 50%; height: auto; border: 2px solid black;">
