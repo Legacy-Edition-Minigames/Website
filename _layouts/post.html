@@ -7,4 +7,7 @@ layout: default
 	<img src="{% if page.image %}{{ page.image }}{% else %}{{ site.baseurl }}/assets/post-image-placeholder.png{% endif %}" style="width: 50%; height: auto; border: 2px solid black;">
 	<div style="text-align: left; margin-top: 10px;">{%- if page.markdown != false -%}{{ page.main-text | markdownify }}{%- else -%}{{ page.main-text }}{%- endif -%}</div>
 	<p><a href="{{ site.baseurl }}/blog" class="minecraft-button center">Return</a></p>
+        <meta content="{{ page.title }}" property="og:title">
+        <meta content="legacyminigames.xyz" property="og:site_name">
+        <meta content="{% if page.image %}{{ page.image }}{% else %}{{ site.baseurl }}/assets/post-image-placeholder.png{% endif %}" property="og:image">
 </div>
