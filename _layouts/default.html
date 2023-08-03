@@ -9,7 +9,7 @@
 		<link rel="preload" as="image" href="{{ site.baseurl }}/assets/btn-panorama-hover.png">
 		<meta content="{{ page.title }}" property="og:title">
     	<meta content="legacyminigames.xyz" property="og:site_name">
-    	<meta content="{{ site.baseurl }}/assets/logo.png" property="og:image">
+    	<meta content="{% if page.image %}{{ page.image }}{% else %}{{ site.baseurl }}/assets/post-image-placeholder.png{% endif %}" property="og:image">
 		<link type="application/json+oembed" href="{{ site.baseurl }}/assets/oembed.json">
     </head>
     <body>
