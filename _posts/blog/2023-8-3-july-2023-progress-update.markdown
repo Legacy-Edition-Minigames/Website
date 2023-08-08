@@ -33,7 +33,7 @@ main-text: |
 
   - **Battle panorama customization** Menu Server panorama settings now transfer over to the battle server! You can set the panorama to be any panorama from older LCE versions and force it to use the night panorama if you'd like!
 
-  - R26.7 has been released! You can see the changelog [here](https://github.com/Legacy-Edition-Minigames/Minigame-Resources/releases/tag/R26.7).
+  - **R26.7 Released** R26.7 has been released! You can see the changelog [here](https://github.com/Legacy-Edition-Minigames/Minigame-Resources/releases/tag/R26.7).
 
   - Removed herobrine
   ### What's being worked on?
