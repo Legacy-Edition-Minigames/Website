@@ -13,7 +13,7 @@ main-text: |
 
   - **1.8 Knockback** 1.8 Styled knockback is now available in Battle! By default this is enabled, however it can be disabled in Combat Options by either switching to Modern Combat or disabling it in Custom Combat.
 
-  - **Sliders & Tickboxes** The work in progress new menu system has received notable some updates recently! New types of menu elements are now possible, allowing for more progress to be made with New Menu getting closer to a full release. We're still in the process of adding these new elements to all the places they should exist, but in most places they already exist now!
+  - **Sliders & Tickboxes** The work in progress new menu system has received some notable updates recently! New types of menu elements are now possible, allowing for more progress to be made with New Menu getting closer to a full release. We're still in the process of adding these new elements to all the places they should exist, but in most places they already exist now!
 
     <img src="../assets/blog/august-2023-progress-update/ui_test.png" class="pixelated">
 
