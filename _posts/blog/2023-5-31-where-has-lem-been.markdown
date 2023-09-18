@@ -33,7 +33,7 @@ main-text: |
 
   - LEM.Base split is now on the main server! This also means the Resource Pack has been updated to R26.6, if you're interested in the changelog for that you can find the page for it [here](https://github.com/Legacy-Edition-Minigames/Minigame-Resources/releases/tag/R26.6).
 
-  - OptiFine support has been removed. A more in-depth explanation to why will be provided soon.
+  - OptiFine support has been removed. ~~A more in-depth explanation to why will be provided soon.~~ No longer nessecary, OptiFine has fixed the bug that resulte in us dropping support.
 
   - We have new logos! You probably have already noticed one of them at the top of the website, they were designed by [S_N00B](https://github.com/S-N00B-1)!
 
