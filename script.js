@@ -67,39 +67,41 @@ function triggerPanoramaMovement() {
 	}
 }
 
+var baseUrl = window.location.protocol + "//" + window.location.host;
+
 if (halloweenMode == true) {
-	document.body.style.backgroundImage = 'url(assets/halloween/h-Panorama.png)';
+	document.body.style.backgroundImage = 'url(' + baseUrl + '/assets/halloween/h-Panorama.png)';
 
 	//Panorama toggle button
 	const regularPanButtons = document.querySelectorAll('.panorama-button');
-	regularPanButtons[0].style.backgroundImage = 'url(assets/halloween/h-btn-panorama.png)';
+	regularPanButtons[0].style.backgroundImage = 'url(' + baseUrl + '/assets/halloween/h-btn-panorama.png)';
 	regularPanButtons.forEach(button => {
 	  button.addEventListener('mouseenter', () => {
-		button.style.backgroundImage = 'url(assets/halloween/h-btn-panorama-hover.png)';
+		button.style.backgroundImage = 'url(' + baseUrl + '/assets/halloween/h-btn-panorama-hover.png)';
 	  });
 
 	  button.addEventListener('mouseleave', () => {
-		button.style.backgroundImage = 'url(assets/halloween/h-btn-panorama.png)';
+		button.style.backgroundImage = 'url(' + baseUrl + '/assets/halloween/h-btn-panorama.png)';
 	  });
 	});
 
 	//Minecraft button
 	const minecraftbuttons = document.querySelectorAll('.minecraft-button');
 	minecraftbuttons.forEach(button => {
-	  button.style.backgroundImage = 'url(assets/halloween/h-btn-minecraft.png)';
+	  button.style.backgroundImage = 'url(' + baseUrl + '/assets/halloween/h-btn-minecraft.png)';
 	  button.addEventListener('mouseenter', () => {
-		button.style.backgroundImage = 'url(assets/halloween/h-btn-minecraft-hover.png)';
+		button.style.backgroundImage = 'url(' + baseUrl + '/assets/halloween/h-btn-minecraft-hover.png)';
 	  });
 
 	  button.addEventListener('mouseleave', () => {
-		button.style.backgroundImage = 'url(assets/halloween/h-btn-minecraft.png)';
+		button.style.backgroundImage = 'url(' + baseUrl + '/assets/halloween/h-btn-minecraft.png)';
 	  });
 	});
 
 	// "GUI" boxes
 	const guibox = document.querySelectorAll('.guibox');
     guibox.forEach(box => {
-      box.style.borderImage = 'url(assets/halloween/h-guimenu.png)';
+      box.style.borderImage = 'url(' + baseUrl + '/assets/halloween/h-guimenu.png)';
             box.style.borderImageSlice ='128 128 fill';
             box.style.borderImageWidth = '64px';
       });
