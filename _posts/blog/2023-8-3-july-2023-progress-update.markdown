@@ -4,6 +4,10 @@ title: "July 2023 Progresss update"
 image: /assets/blog/july-2023-progress-update/thumb.png
 permalink: /blog/july-2023-progress-update
 type: blog
+preview-text: | 
+  Introducing progress updates!
+
+  As a way to keep the community up to date on what is happening with LEM, we will now be doing progress updates every month covering what's been going on over here!
 main-text: | 
   ### Introducing progress updates!
 

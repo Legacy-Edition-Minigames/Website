@@ -4,6 +4,8 @@ title: "Why is the server a Closed Alpha?"
 image: /assets/faq/whitelist.png
 permalink: /faq/whitelist
 type: faq
+preview-text: | 
+  There are multiple reasons why the server is in a closed alpha state, listed here are the major ones that led to the decision to make the server a closed alpha.
 main-text: | 
   There are multiple reasons why the server is in a closed alpha state, listed here are the major ones that led to the decision to make the server a closed alpha.
 

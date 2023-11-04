@@ -4,6 +4,8 @@ title: "Will bedrock ever be supported?"
 image: /assets/faq/bedrock.png
 permalink: /faq/bedrock
 type: faq
+preview-text: | 
+  Bedrock edition works very different than Java Edition under the hood, this means just Geyser alone is not enough to make LEM playable on bedrock.
 main-text: | 
   Bedrock edition works very different than Java Edition under the hood, this means just Geyser alone is not enough to make LEM playable on bedrock.
 

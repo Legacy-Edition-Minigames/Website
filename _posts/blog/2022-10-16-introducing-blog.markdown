@@ -4,6 +4,11 @@ title: "Introducing the LEM Blog"
 image: /assets/blog/introducing-blog.png
 permalink: /blog/introducing-blog
 type: blog
+preview-text: | 
+  Welcome to the LEM blog page!
+  
+  Updates about what is happening with LEM will be posted here!
+  Things like new features, changes to existing features, improvements to the game, etc.. will be found here!
 main-text: | 
   Welcome to the LEM blog page!
   

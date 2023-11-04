@@ -4,6 +4,8 @@ title: "August 2023 Progresss update"
 image: /assets/blog/july-2023-progress-update/thumb.png
 permalink: /blog/august-2023-progress-update
 type: blog
+preview-text: | 
+  Hello again! This month doesn't have as many big changes as last month, but some exciting things are being worked on!
 main-text: | 
   Hello again! This month doesn't have as many big changes as last month, but some exciting things are being worked on!
 

@@ -4,6 +4,10 @@ title: "When will the latest version be supported?"
 image: /assets/faq/updatewhen.png
 permalink: /faq/updatewhen
 type: faq
+preview-text: | 
+  1.20.2 support is not planned
+
+  1.20.2 has a bug that heavily impacts LEM's pack switching system that would result in 20 second loading screens when packs are switched.
 main-text: | 
   # 1.20.2 support is not planned
 

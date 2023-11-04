@@ -4,6 +4,8 @@ title: "LEMClientHelper is now on Modrinth!"
 image: /assets/blog/lch-on-modrinth.png
 permalink: /blog/lch-on-modrinth
 type: blog
+preview-text: | 
+  LEM Client Helper, the enhancement mod for Legacy Edition Minigames is now available to download on Modrinth!
 main-text: | 
   LEM Client Helper, the enhancement mod for Legacy Edition Minigames is now available to download on Modrinth!
 

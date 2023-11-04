@@ -4,6 +4,8 @@ title: "Where has LEM been?"
 image: /assets/blog/introducing-blog.png
 permalink: /blog/where-has-lem-been
 type: blog
+preview-text: | 
+  Around a month and a half ago (as of writing this post), Legacy Edition Minigames suddenly went into a hiatus, what happened?
 main-text: | 
   ### Around a month and a half ago (as of writing this post), Legacy Edition Minigames suddenly went into a hiatus, what happened?
 

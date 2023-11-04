@@ -4,6 +4,8 @@ title: "What Modpacks/Clients are compatible with LEM?"
 image: /assets/faq/modpack.png
 permalink: /faq/modpack
 type: faq
+preview-text: | 
+  "Clients" in the sense of Lunar Client, Badlion Client, Feather client, etc are not recommended for LEM. They very often break LEM's UI features and in some cases make the game near unplayable (Lunar Client for example), due to all of this it is highly suggested to use one of the options listed below instead.
 main-text: | 
   "Clients" in the sense of Lunar Client, Badlion Client, Feather client, etc are not recommended for LEM. They very often break LEM's UI features and in some cases make the game near unplayable (Lunar Client for example), due to all of this it is highly suggested to use one of the options listed below instead.
 

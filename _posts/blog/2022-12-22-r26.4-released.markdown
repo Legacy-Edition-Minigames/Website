@@ -4,6 +4,10 @@ title: "R26.4 Now Available!"
 image: /assets/blog/r26-4-released.png
 permalink: /blog/r26-4-released
 type: blog
+preview-text: | 
+  A new resource version is now available!
+  
+  R26.4 introduces a few new features, notably 1.19.3 support
 main-text: | 
   A new resource version is now available!
   

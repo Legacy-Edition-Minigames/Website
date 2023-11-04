@@ -4,6 +4,8 @@ title: "URGENT: PolyMC is Compromised"
 image: /assets/blog/polymc-compromised.png
 permalink: /blog/polymc-compromised
 type: blog
+preview-text: | 
+  PolyMC's maintainer has gone rogue and compromised the project, and there is a chance they will push malicous code via an update even if autoupdate is disabled.
 main-text: | 
   PolyMC's maintainer has gone rogue and compromised the project, and there is a chance they will push malicous code via an update **even if autoupdate is disabled.**
 
