@@ -149,5 +149,6 @@ if (festiveMode == true) {
       box.style.borderImage = 'url(' + baseUrl + '/assets/festive/f-guimenu.png)';
             box.style.borderImageSlice ='128 128 fill';
             box.style.borderImageWidth = '64px';
+	    box.style.color = 'white'
       });
 }
