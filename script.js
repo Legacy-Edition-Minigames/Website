@@ -56,13 +56,23 @@ function easterEgg() {
 
 function clickSound() {
   var clickSound = new Audio("/assets/click.ogg");
-  clickSound.play();
+  var terrariaClickSound = new Audio("/assets/aprilfools/click.ogg");
+  if (aprilfoolsMode != true) {
+	clickSound.play();
+  } else if (aprilfoolsMode == true) {
+	terrariaClickSound.play();
+  }
 }
 
 
 function hoverSound() {
   var hoverSound = new Audio("/assets/hover.ogg");
-  hoverSound.play();
+  var terrariaHoverSound = new Audio("/assets/aprilfools/hover.ogg");
+  if (aprilfoolsMode != true) {
+	hoverSound.play();
+  } else if (aprilfoolsMode == true) {
+	terrariaHoverSound.play();
+  }
 }
 
 function triggerPanoramaMovement() {
@@ -153,7 +163,8 @@ if (aprilfoolsMode == true) {
       box.style.borderImage = 'url(' + baseUrl + '/assets/aprilfools/a-guimenu.png)';
             box.style.borderImageSlice ='128 128 fill';
             box.style.borderImageWidth = '64px';
-			box.style.fontFamily = "''Terraria''";
+			box.style.fontFamily = "'Terraria'";
+			box.style.fontSize = 'large';
 			box.style.color = 'white';
       });
 }
