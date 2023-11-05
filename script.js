@@ -153,7 +153,7 @@ if (aprilfoolsMode == true) {
       box.style.borderImage = 'url(' + baseUrl + '/assets/aprilfools/a-guimenu.png)';
             box.style.borderImageSlice ='128 128 fill';
             box.style.borderImageWidth = '64px';
-			box.style.fontFamily = "''Andy''";
+			box.style.fontFamily = "''Terraria''";
 			box.style.color = 'white';
       });
 }
