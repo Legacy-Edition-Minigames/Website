@@ -127,6 +127,10 @@ if (halloweenMode == true) {
 if (aprilfoolsMode == true) {
 	document.body.style.backgroundImage = 'url(' + baseUrl + '/assets/aprilfools/a-Panorama.png)';
 
+	//Blur
+	const blur = document.querySelectorAll('.backdrop-blur');
+	blur[0].style.backdropFilter = 'blur(0px)';
+
 	//Logo
 	const logo = document.querySelectorAll('.logo');
 	logo[0].style.backgroundImage = 'url(' + baseUrl + '/assets/aprilfools/a-Logo.png)';
