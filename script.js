@@ -47,7 +47,11 @@ function easterEgg() {
 		document.getElementById("easter-egg").setAttribute("style","color: #00aa00");
 	} else {
 		if (easterEggClicks < 3) {
-			document.getElementById("click").play();
+			if (aprilfoolsMode == true) {
+				document.getElementById("clickAprilFools").play();
+			} else {
+				document.getElementById("click").play();
+			}
 		}
 		easterEggClicks++;
 	}
