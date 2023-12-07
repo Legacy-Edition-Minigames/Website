@@ -6,7 +6,7 @@ This is the website for Legacy Edition Minigames.
 
 ![Powered By Nostalgia](https://img.shields.io/badge/Powered_by-Nostalgia-e49454?style=for-the-badge)
 
-You can view the live site at [www.legacyminigames.xyz](http://www.legacyminigames.xyz/)
+You can view the live site at [www.legacyminigames.net](http://www.legacyminigames.net/)
 
 ### Credits
 
