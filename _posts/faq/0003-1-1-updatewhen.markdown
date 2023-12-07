@@ -5,17 +5,13 @@ image: /assets/faq/updatewhen.png
 permalink: /faq/updatewhen
 type: faq
 preview-text: | 
-  1.20.2 support is not planned
+  There is no ETA for when the update will be available yet.
 
-  1.20.2 has a bug that heavily impacts LEM's pack switching system that would result in 20 second loading screens when packs are switched.
+  1.20.3 has been released, the update development process has not begun yet to allow for mods and server software to be fully updated.
 main-text: | 
-  # 1.20.2 support is not planned
+  ### There is no ETA for when the update will be available yet.
 
-  1.20.2 has a bug that heavily impacts LEM's pack switching system that would result in 20 second loading screens when packs are switched.
-
-  This bug has been marked as fixed for a future Minecraft version, **We do plan to update to 1.20.3 once it releases.**
-
-  The MoJira report for the bug is [MC-265462](https://bugs.mojang.com/browse/MC-265462).
+  1.20.3 has been released, the update development process has not begun yet to allow for mods and server software to be fully updated. This is done to both allow players to not have to give up all their mods to play on the server and allow server software on the new version to become stable before we use it.
 
   ## Original Post
 
