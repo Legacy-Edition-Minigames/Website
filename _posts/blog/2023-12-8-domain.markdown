@@ -31,6 +31,8 @@ main-text: |
 
   We will stay with the legacyminigames.net domain for the forseeable future.
 
-  Thank you for taking your time to read this! Thats it for this blogpost, we'll see you in the November progress update!
+  Thank you for taking your time to read this! Thats it for this blogpost, ~~we'll see you in the November progress update!~~
+  
+  December 24th update: There won't be a November/December progress update unfortunately, we'll hopefully see you in the January Progress Update!
 markdown: true
 ---
