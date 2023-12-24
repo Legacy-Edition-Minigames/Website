@@ -163,11 +163,14 @@ function festiveMode() {
 	  button.style.backgroundImage = 'url(' + baseUrl + '/assets/festive/f-btn-minecraft.png)';
 	  button.addEventListener('mouseenter', () => {
 		button.style.backgroundImage = 'url(' + baseUrl + '/assets/festive/f-btn-minecraft-hover.png)';
+		button.style.color = '#FFFFFF'
 	  });
 
 	  button.addEventListener('mouseleave', () => {
 		button.style.backgroundImage = 'url(' + baseUrl + '/assets/festive/f-btn-minecraft.png)';
+		button.style.color = '#AEC8D9'
 	  });
+	  button.style.color = '#AEC8D9'
 	});
 	
 	const guibox = document.querySelectorAll('.guibox'); // gui boxes
@@ -175,7 +178,7 @@ function festiveMode() {
       	box.style.borderImage = 'url(' + baseUrl + '/assets/festive/f-guimenu.png)';
             box.style.borderImageSlice ='128 128 fill';
             box.style.borderImageWidth = '64px';
-	    box.style.color = 'white'
+	    box.style.color = '#AEC8D9'
       	});
 }
 
