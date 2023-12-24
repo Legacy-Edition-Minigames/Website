@@ -222,3 +222,51 @@ function aprilfoolsMode() {
 			box.style.color = 'white';
       	});
 }
+if (aprilfoolsMode == true) {
+	document.body.style.backgroundImage = 'url(' + baseUrl + '/assets/aprilfools/a-Panorama.png)';
+
+	//Blur
+	const blur = document.querySelectorAll('.backdrop-blur');
+	blur[0].style.backdropFilter = 'blur(0px)';
+
+	//Logo
+	const logo = document.querySelectorAll('.logo');
+	logo[0].style.backgroundImage = 'url(' + baseUrl + '/assets/aprilfools/a-Logo.png)';
+
+	//Panorama toggle button
+	const regularPanButtons = document.querySelectorAll('.panorama-button');
+	regularPanButtons[0].style.backgroundImage = 'url(' + baseUrl + '/assets/aprilfools/a-btn-panorama.png)';
+	regularPanButtons.forEach(button => {
+	  button.addEventListener('mouseenter', () => {
+		button.style.backgroundImage = 'url(' + baseUrl + '/assets/aprilfools/a-btn-panorama-hover.png)';
+	  });
+
+	  button.addEventListener('mouseleave', () => {
+		button.style.backgroundImage = 'url(' + baseUrl + '/assets/aprilfools/a-btn-panorama.png)';
+	  });
+	});
+
+	//Minecraft button
+	const minecraftbuttons = document.querySelectorAll('.minecraft-button');
+	minecraftbuttons.forEach(button => {
+	  button.style.backgroundImage = 'url(' + baseUrl + '/assets/aprilfools/a-btn-minecraft.png)';
+	  button.addEventListener('mouseenter', () => {
+		button.style.backgroundImage = 'url(' + baseUrl + '/assets/aprilfools/a-btn-minecraft-hover.png)';
+	  });
+
+	  button.addEventListener('mouseleave', () => {
+		button.style.backgroundImage = 'url(' + baseUrl + '/assets/aprilfools/a-btn-minecraft.png)';
+	  });
+	});
+
+	// "GUI" boxes
+	const guibox = document.querySelectorAll('.guibox');
+    guibox.forEach(box => {
+      box.style.borderImage = 'url(' + baseUrl + '/assets/aprilfools/a-guimenu.png)';
+            box.style.borderImageSlice ='128 128 fill';
+            box.style.borderImageWidth = '64px';
+			box.style.fontFamily = "'Terraria'";
+			box.style.fontSize = 'large';
+			box.style.color = 'white';
+      });
+}
