@@ -254,12 +254,14 @@ if (aprilfoolsMode == true) {
 	minecraftbuttons.forEach(button => {
 	  button.style.backgroundImage = 'url(' + baseUrl + '/assets/aprilfools/a-btn-minecraft.png)';
 	  button.addEventListener('mouseenter', () => {
+
 		button.style.backgroundImage = 'url(' + baseUrl + '/assets/aprilfools/a-btn-minecraft-hover.png)';
 	  });
 
 	  button.addEventListener('mouseleave', () => {
 		button.style.backgroundImage = 'url(' + baseUrl + '/assets/aprilfools/a-btn-minecraft.png)';
 	  });
+	  button.style.color = '#AEC8D9'
 	});
 
 	// "GUI" boxes
