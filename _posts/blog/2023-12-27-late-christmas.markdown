@@ -46,7 +46,7 @@ main-text: |
     // If the count down is over, write some text 
     if (distance < 0) {
       clearInterval(x);
-      document.getElementById("countdown").innerHTML = "Already started!";
+      document.getElementById("countdown").innerHTML = "Starting soon!";
     }
   }, 1000);
   </script>
