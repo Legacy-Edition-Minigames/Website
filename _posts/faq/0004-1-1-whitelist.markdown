@@ -29,6 +29,6 @@ main-text: |
 
   # Notice
   
-  ### LEM will be going temporarily public soon! More information [Here](../blog/late-christmas)
+  ### LEM is currently temporarily public! More information [Here](../blog/late-christmas)
 markdown: true
 ---
