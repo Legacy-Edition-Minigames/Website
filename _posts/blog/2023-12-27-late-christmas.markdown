@@ -20,6 +20,6 @@ main-text: |
 
   # The event has started!
 
-  ### Join the ip legacyminigames.net on 1.20.1 to play!
+  ### Join the IP legacyminigames.net on 1.20.1 to play!
 markdown: true
 ---
