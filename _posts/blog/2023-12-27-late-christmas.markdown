@@ -18,8 +18,8 @@ main-text: |
 
   We hope everyone involved has fun, see you there!
 
-  # The event has started!
+  # The event has ended
 
-  ### Join the IP legacyminigames.net on 1.20.1 to play!
+  Thanks to everyone who participated! If you would like to keep playing please make an [Invite Request](../joinrequest)!
 markdown: true
 ---
