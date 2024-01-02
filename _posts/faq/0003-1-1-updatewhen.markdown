@@ -7,7 +7,7 @@ type: faq
 preview-text: | 
   There is no ETA for when the update will be available yet.
 
-  1.20.3 has been released, the update development process has not begun yet to allow for mods and server software to be fully updated.
+  1.20.3/4 has been released, we are currently in the process of working on an update from 1.20.1 to 1.20.4. This will likely take a while until its ready for testing.
 main-text: | 
   ### There is no ETA for when the update will be available yet.
 
