@@ -84,7 +84,7 @@ body {
 	background-image: url('assets/logo.png');
 }
 
-.github-button, .patreon-button {
+.github-button, .patreon-button, .youtube-button {
 	display: inline-block;
 	height: 80px;
 	width: 80px;
@@ -100,12 +100,20 @@ body {
 	background-image: url('assets/btn-patreon.png');
 }
 
+.youtube-button {
+	background-image: url('assets/btn-youtube.png');
+}
+
 .github-button:hover {
 	background-image: url('assets/btn-github-hover.png');
 }
 
 .patreon-button:hover {
 	background-image: url('assets/btn-patreon-hover.png');
+}
+
+.youtube-button:hover {
+	background-image: url('assets/btn-youtube-hover.png');
 }
 
 .minecraft-button {
