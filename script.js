@@ -23,9 +23,9 @@ var overide = false;
 var d = new Date();
 var curr_month = d.getMonth() + 1;
 var curr_day = d.getDate();
-const var halloweenMode = false;
-const var festiveMode = false;
-const var aprilfoolsMode = false;
+let halloweenMode = false;
+let festiveMode = false;
+let aprilfoolsMode = false;
 if (curr_month == 10) { // halloween
 	halloweenMode = true;
 }
@@ -36,7 +36,7 @@ if (curr_month == 4 && curr_day == 1) { // april fools
          aprilfoolsMode = true;
 }
 
-const var menuMusic = "music"
+let var menuMusic = "music"
 // Music
 function easterEgg() {
 	if (easterEggClicks == 2) {
