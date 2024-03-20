@@ -23,30 +23,34 @@ var overide = false;
 var d = new Date();
 var curr_month = d.getMonth() + 1;
 var curr_day = d.getDate();
+const var halloweenMode = false;
+const var festiveMode = false;
+const var aprilfoolsMode = false;
 if (curr_month == 10) { // halloween
-	var halloweenMode = true
+	halloweenMode = true;
 }
 if (curr_month == 12) { // festive
-	var festiveMode = true
+	festiveMode = true;
 }
 if (curr_month == 4 && curr_day == 1) { // april fools
-	var aprilfoolsMode = true
+         aprilfoolsMode = true;
 }
 
+const var menuMusic = "music"
 // Music
 function easterEgg() {
 	if (easterEggClicks == 2) {
 		document.getElementById("click").play();
 		easterEggClicks++;
-		var menuMusic = "music"
+		menuMusic = "music"
 		if (halloweenMode == true) {
-			var menuMusic = "musicHalloween"
+			menuMusic = "musicHalloween"
 		}
 		if (festiveMode == true) {
-			var menuMusic = "musicFestive"
+			menuMusic = "musicFestive"
 		}
 		if (aprilfoolsMode == true) {
-			var menuMusic = "musicAprilFools"
+			menuMusic = "musicAprilFools"
 		}
 		document.getElementById(menuMusic).loop = true;
 		document.getElementById(menuMusic).play();
