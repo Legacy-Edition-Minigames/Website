@@ -19,37 +19,37 @@ function triggerPanoramaMovement() {
 }
 
 // Seasonal events
-var overide = false;
+let overide = false;
 var d = new Date();
 var curr_month = d.getMonth() + 1;
 var curr_day = d.getDate();
-let halloweenMode = false;
-let festiveMode = false;
-let aprilfoolsMode = false;
+let halloweenModeCheck = false;
+let festiveModeCheck = false;
+let aprilfoolsModeCheck = false;
 if (curr_month == 10) { // halloween
-	halloweenMode = true;
+	halloweenModeCheck = true;
 }
 if (curr_month == 12) { // festive
-	festiveMode = true;
+	festiveModeCheck = true;
 }
 if (curr_month == 4 && curr_day == 1) { // april fools
-         aprilfoolsMode = true;
+    aprilfoolsModeCheck = true;
 }
 
-let var menuMusic = "music"
+let menuMusic = "music"
 // Music
 function easterEgg() {
 	if (easterEggClicks == 2) {
 		document.getElementById("click").play();
 		easterEggClicks++;
 		menuMusic = "music"
-		if (halloweenMode == true) {
+		if (halloweenModeCheck == true) {
 			menuMusic = "musicHalloween"
 		}
-		if (festiveMode == true) {
+		if (festiveModeCheck == true) {
 			menuMusic = "musicFestive"
 		}
-		if (aprilfoolsMode == true) {
+		if (aprilfoolsModeCheck == true) {
 			menuMusic = "musicAprilFools"
 		}
 		document.getElementById(menuMusic).loop = true;
@@ -57,7 +57,7 @@ function easterEgg() {
 		document.getElementById("easter-egg").setAttribute("style","color: #00aa00");
 	} else {
 		if (easterEggClicks < 3) {
-			if (aprilfoolsMode == true) {
+			if (aprilfoolsModeCheck == true) {
 				document.getElementById("clickAprilFools").play();
 			} else {
 				document.getElementById("click").play();
@@ -81,9 +81,9 @@ if (elements.length > 0) {
 function clickSound() {
   var clickSound = new Audio("/assets/click.ogg");
   var terrariaClickSound = new Audio("/assets/aprilfools/click.ogg");
-  if (aprilfoolsMode != true) {
+  if (aprilfoolsModeCheck != true) {
 	clickSound.play();
-  } else if (aprilfoolsMode == true) {
+  } else if (aprilfoolsModeCheck == true) {
 	terrariaClickSound.play();
   }
 }
@@ -92,9 +92,9 @@ function clickSound() {
 function hoverSound() {
   var hoverSound = new Audio("/assets/hover.ogg");
   var terrariaHoverSound = new Audio("/assets/aprilfools/hover.ogg");
-  if (aprilfoolsMode != true) {
+  if (aprilfoolsModeCheck != true) {
 	hoverSound.play();
-  } else if (aprilfoolsMode == true) {
+  } else if (aprilfoolsModeCheck == true) {
 	terrariaHoverSound.play();
   }
 }
@@ -219,14 +219,14 @@ function aprilfoolsMode() {
       	});
 }
 
-if (halloweenMode == true && overide == false) {
+if (halloweenModeCheck == true && overide == false) {
 	halloweenMode();
 }
 
-if (festiveMode == true && overide == false) {
+if (festiveModeCheck == true && overide == false) {
 	festiveMode();
 }
-if (aprilfoolsMode == true && overide == false) {
+if (aprilfoolsModeCheck == true && overide == false) {
 	aprilfoolsMode();
 }
 
