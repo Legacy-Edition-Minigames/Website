@@ -8,7 +8,7 @@ preview-text: |
   Welcome back! There's been a lot that has changed since the last time we've posted one of these, lets get started!
 main-text: | 
   <script>
-    var overide = true
+    overide = true;
     halloweenMode();
   </script>
   Welcome back! There's been a lot that has changed since the last time we've posted one of these, lets get started!

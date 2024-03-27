@@ -19,7 +19,7 @@ function triggerPanoramaMovement() {
 }
 
 // Seasonal events
-let overide = false;
+var overide = false;
 var d = new Date();
 var curr_month = d.getMonth() + 1;
 var curr_day = d.getDate();
@@ -100,123 +100,18 @@ function hoverSound() {
 }
 
 var baseUrl = window.location.protocol + "//" + window.location.host;
+const themeStyle = document.querySelectorAll('.theme');
 
 function halloweenMode() {
-	document.body.style.backgroundImage = 'url(' + baseUrl + '/assets/halloween/h-Panorama.png)'; // panorama
-
-	const regularPanButtons = document.querySelectorAll('.panorama-button'); // panorama button
-	regularPanButtons[0].style.backgroundImage = 'url(' + baseUrl + '/assets/halloween/h-btn-panorama.png)';
-	regularPanButtons.forEach(button => {
-	  button.addEventListener('mouseenter', () => {
-		button.style.backgroundImage = 'url(' + baseUrl + '/assets/halloween/h-btn-panorama-hover.png)';
-	  });
-
-	  button.addEventListener('mouseleave', () => {
-		button.style.backgroundImage = 'url(' + baseUrl + '/assets/halloween/h-btn-panorama.png)';
-	  });
-	});
-	
-	const minecraftbuttons = document.querySelectorAll('.minecraft-button'); // regular buttons
-	minecraftbuttons.forEach(button => {
-	  button.style.backgroundImage = 'url(' + baseUrl + '/assets/halloween/h-btn-minecraft.png)';
-	  button.addEventListener('mouseenter', () => {
-		button.style.backgroundImage = 'url(' + baseUrl + '/assets/halloween/h-btn-minecraft-hover.png)';
-	  });
-
-	  button.addEventListener('mouseleave', () => {
-		button.style.backgroundImage = 'url(' + baseUrl + '/assets/halloween/h-btn-minecraft.png)';
-	  });
-	});
-	
-	const guibox = document.querySelectorAll('.guibox'); // gui boxes
-    	guibox.forEach(box => {
-      	box.style.borderImage = 'url(' + baseUrl + '/assets/halloween/h-guimenu.png)';
-            box.style.borderImageSlice ='128 128 fill';
-            box.style.borderImageWidth = '64px';
-      	});
+	themeStyle.href = baseUrl + 'style-halloween.css';
 }
 
 function festiveMode() {
-	document.body.style.backgroundImage = 'url(' + baseUrl + '/assets/festive/f-Panorama.png)'; // panorama
-	
-	const regularPanButtons = document.querySelectorAll('.panorama-button'); // panorama button
-	regularPanButtons[0].style.backgroundImage = 'url(' + baseUrl + '/assets/festive/f-btn-panorama.png)';
-	regularPanButtons.forEach(button => {
-	  button.addEventListener('mouseenter', () => {
-		button.style.backgroundImage = 'url(' + baseUrl + '/assets/festive/f-btn-panorama-hover.png)';
-	  });
-
-	  button.addEventListener('mouseleave', () => {
-		button.style.backgroundImage = 'url(' + baseUrl + '/assets/festive/f-btn-panorama.png)';
-	  });
-	});
-	
-	const minecraftbuttons = document.querySelectorAll('.minecraft-button'); // regular buttons
-	minecraftbuttons.forEach(button => {
-	  button.style.backgroundImage = 'url(' + baseUrl + '/assets/festive/f-btn-minecraft.png)';
-	  button.addEventListener('mouseenter', () => {
-		button.style.backgroundImage = 'url(' + baseUrl + '/assets/festive/f-btn-minecraft-hover.png)';
-		button.style.color = '#FFFFFF'
-	  });
-
-	  button.addEventListener('mouseleave', () => {
-		button.style.backgroundImage = 'url(' + baseUrl + '/assets/festive/f-btn-minecraft.png)';
-		button.style.color = '#AEC8D9'
-	  });
-	  button.style.color = '#AEC8D9'
-	});
-	
-	const guibox = document.querySelectorAll('.guibox'); // gui boxes
-    	guibox.forEach(box => {
-      	box.style.borderImage = 'url(' + baseUrl + '/assets/festive/f-guimenu.png)';
-            box.style.borderImageSlice ='128 128 fill';
-            box.style.borderImageWidth = '64px';
-	    box.style.color = '#AEC8D9'
-      	});
+	themeStyle.href = baseUrl + 'style-festive.css';
 }
 
 function aprilfoolsMode() {
-	document.body.style.backgroundImage = 'url(' + baseUrl + '/assets/aprilfools/a-Panorama.png)'; // panorama
-	
-	const blur = document.querySelectorAll('.backdrop-blur'); // blur
-	blur[0].style.backdropFilter = 'blur(0px)';
-
-	const logo = document.querySelectorAll('.logo'); // logo
-	logo[0].style.backgroundImage = 'url(' + baseUrl + '/assets/aprilfools/a-Logo.png)';
-
-	const regularPanButtons = document.querySelectorAll('.panorama-button'); // panorama button
-	regularPanButtons[0].style.backgroundImage = 'url(' + baseUrl + '/assets/aprilfools/a-btn-panorama.png)';
-	regularPanButtons.forEach(button => {
-	  button.addEventListener('mouseenter', () => {
-		button.style.backgroundImage = 'url(' + baseUrl + '/assets/aprilfools/a-btn-panorama-hover.png)';
-	  });
-
-	  button.addEventListener('mouseleave', () => {
-		button.style.backgroundImage = 'url(' + baseUrl + '/assets/aprilfools/a-btn-panorama.png)';
-	  });
-	});
-
-	const minecraftbuttons = document.querySelectorAll('.minecraft-button'); // regular button
-	minecraftbuttons.forEach(button => {
-	  button.style.backgroundImage = 'url(' + baseUrl + '/assets/aprilfools/a-btn-minecraft.png)';
-	  button.addEventListener('mouseenter', () => {
-		button.style.backgroundImage = 'url(' + baseUrl + '/assets/aprilfools/a-btn-minecraft-hover.png)';
-	  });
-
-	  button.addEventListener('mouseleave', () => {
-		button.style.backgroundImage = 'url(' + baseUrl + '/assets/aprilfools/a-btn-minecraft.png)';
-	  });
-	});
-	
-	const guibox = document.querySelectorAll('.guibox'); // gui boxes
-    	guibox.forEach(box => {
-      	box.style.borderImage = 'url(' + baseUrl + '/assets/aprilfools/a-guimenu.png)';
-            box.style.borderImageSlice ='128 128 fill';
-            box.style.borderImageWidth = '64px';
-			box.style.fontFamily = "'Terraria'";
-			box.style.fontSize = 'large';
-			box.style.color = 'white';
-      	});
+	themeStyle.href = baseUrl + 'style-aprilfools.css';
 }
 
 if (halloweenModeCheck == true && overide == false) {

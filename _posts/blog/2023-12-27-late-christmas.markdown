@@ -8,7 +8,8 @@ preview-text: |
   Merry (late) Christmas! We're doing an event this weekend (December 30th to 31st)
 main-text: | 
   <script>
-  var festiveMode = true
+    overide = true;
+    festiveMode();
   </script>
   Merry (late) Christmas! We're doing an event this weekend (December 30th to 31st)
 

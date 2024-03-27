@@ -1,0 +1,23 @@
+  body {
+	  background-image: url('/assets/halloween/h-Panorama.png');
+  }
+  
+  .panorama-button {
+	  background-image: url("/assets/halloween/h-btn-panorama.png");
+  }
+  
+  .panorama-button:hover {
+	  background-image: url("/assets/halloween/h-btn-panorama-hover.png");
+  }
+  
+  .guibox {
+	  border-image: url('/assets/halloween/h-guimenu.png');
+  }
+  
+  .minecraft-button {
+	  background-image: url('/assets/halloween/h-btn-minecraft.png');
+  }
+  
+  .minecraft-button:hover {
+	  background-image: url('/assets/halloween/h-btn-minecraft-hover.png');
+  }
