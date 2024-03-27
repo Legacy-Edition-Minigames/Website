@@ -20,6 +20,8 @@
 	  font-size: 'large';
 	  color: #ffffff;
 	  border-image: url('/assets/aprilfools/a-guimenu.png');
+    border-image-slice: 128 128 fill;
+	  border-image-width: 64px;
   }
   
   .logo {

@@ -12,6 +12,8 @@
   
   .guibox {
 	  border-image: url('/assets/halloween/h-guimenu.png');
+    border-image-slice: 128 128 fill;
+	  border-image-width: 64px;
   }
   
   .minecraft-button {
