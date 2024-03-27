@@ -103,15 +103,18 @@ var baseUrl = window.location.protocol + "//" + window.location.host;
 const themeStyle = document.querySelectorAll('.theme');
 
 function halloweenMode() {
-	themeStyle.href = baseUrl + 'style-halloween.css';
+	themeStyle.forEach(theme => {
+		theme.href = baseUrl + '/style-halloween.css'; });
 }
 
 function festiveMode() {
-	themeStyle.href = baseUrl + 'style-festive.css';
+	themeStyle.forEach(theme => {
+		theme.href = baseUrl + '/style-festive.css';});
 }
 
 function aprilfoolsMode() {
-	themeStyle.href = baseUrl + 'style-aprilfools.css';
+	themeStyle.forEach(theme => {
+		theme.href = baseUrl + '/style-aprilfools.css';});
 }
 
 if (halloweenModeCheck == true && overide == false) {
