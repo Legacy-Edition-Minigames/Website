@@ -1,0 +1,39 @@
+  body {
+	  font-family: 'Terraria';
+	  background-image: url('assets/aprilfools/a-Panorama.png');
+  }
+  
+  .backdrop-blur {
+	  backdrop-filter: blur(0px);
+  }
+  
+  .panorama-button {
+	  background-image: url("/assets/aprilfools/a-btn-panorama.png");
+  }
+  
+  .panorama-button:hover {
+	  background-image: url("/assets/aprilfools/a-btn-panorama-hover.png");
+  }
+  
+  .guibox {
+	  font-family: 'Terraria';
+	  font-size: 'large';
+	  color: #ffffff;
+	  border-image: url('/assets/aprilfools/a-guimenu.png');
+    border-image-slice: 128 128 fill;
+	  border-image-width: 64px;
+  }
+  
+  .logo {
+	  background-image: url('assets/aprilfools/a-Logo.png');
+  }
+  
+  .minecraft-button {
+	  background-image: url('/assets/aprilfools/a-btn-minecraft.png');
+  }
+  
+  .minecraft-button:hover {
+	  background-image: url('/assets/aprilfools/a-btn-minecraft-hover.png');
+  }
+ 
+  
