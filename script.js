@@ -19,20 +19,20 @@ function triggerPanoramaMovement() {
 }
 
 // Seasonal events
-var overide = false;
+var overide;
 var d = new Date();
 var curr_month = d.getMonth() + 1;
 var curr_day = d.getDate();
-let halloweenModeCheck = false;
-let festiveModeCheck = false;
-let aprilfoolsModeCheck = false;
-if (curr_month == 10) { // halloween
+var halloweenModeCheck;
+var festiveModeCheck;
+var aprilfoolsModeCheck;
+if (curr_month == 10 && overide != true) { // halloween
 	halloweenModeCheck = true;
 }
-if (curr_month == 12) { // festive
+if (curr_month == 12 && overide != true) { // festive
 	festiveModeCheck = true;
 }
-if (curr_month == 4 && curr_day == 1) { // april fools
+if (curr_month == 4 && curr_day == 1 && overide != true) { // april fools
     aprilfoolsModeCheck = true;
 }
 
@@ -117,14 +117,14 @@ function aprilfoolsMode() {
 		theme.href = baseUrl + '/style-aprilfools.css';});
 }
 
-if (halloweenModeCheck == true && overide == false) {
+if (halloweenModeCheck == true) {
 	halloweenMode();
 }
 
-if (festiveModeCheck == true && overide == false) {
+if (festiveModeCheck == true) {
 	festiveMode();
 }
-if (aprilfoolsModeCheck == true && overide == false) {
+if (aprilfoolsModeCheck == true) {
 	aprilfoolsMode();
 }
 
