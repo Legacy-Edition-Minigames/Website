@@ -5,7 +5,7 @@ image: /assets/blog/january-2024-progress-update.png
 permalink: /blog/january-2024-progress-update
 type: blog
 preview-text: | 
-  Welcome back! There's been a lot that has changed since the last time we've posted one of these, lets get started!
+  Well, hasn't it been a few busy months? We'll talk more about that at the bottom though, lets get to it!
 main-text: | 
   Well, hasn't it been a few busy months? We'll talk more about that at the bottom though, lets get to it!
 
