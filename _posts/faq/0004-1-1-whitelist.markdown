@@ -26,9 +26,5 @@ main-text: |
   There is no date that is set in stone for LEM going public, but it will likely either be late 2024 or in 2025.
   
   To clarify, **it does not cost money to join the Closed Alpha.** Joining the server's Patreon simply lets you skip the waiting line to join. If you are interested in joining, you can see more at the [Join page](../join).
-
-  # Notice
-  
-  ### LEM is currently temporarily public! More information [Here](../blog/april-2024-progress-update)
 markdown: true
 ---
