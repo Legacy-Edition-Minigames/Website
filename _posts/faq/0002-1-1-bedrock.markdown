@@ -11,8 +11,10 @@ main-text: |
 
   Many elements, such as the UI, Menus, and Game Mechanics (ladder climb speed, knockback, etc.) need to be accounted for before Bedrock can be fully playable.
 
-  Bedrock support was being experiemented with in the past, but has been put on hold for the time being to focus on more important things. Expect it to get work done on it once ModTools 2 is released.
+  Bedrock support was being experimented with in the past, but due primarily to concerns with Minecraft Marketplace, as well as some other technical issues we have no plans to natively support bedrock edition.
 
-  However, if you would like to play Battle with the first 3 maps right now, you can play Ultmate_Mario's remake [Here!](https://mcpedl.com/minecraft-battle-minigame-bedrock-map/)
+  This is subject to change at a future date, however many factors will play into if we do decide, and are able to support bedrock edition.
+
+  In the event you happen to be a mojang employee, and would like us to support bedrock, please feel free to reach out, and we can attempt to work out a solution.
 markdown: true
 ---
