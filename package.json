@@ -1,0 +1,46 @@
+{
+  "name": "lem-website",
+  "version": "1.0.0",
+  "description": "Website for Legacy Edition Minigames (LEM)",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc; vite build",
+    "dev": "vite",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Legacy-Edition-Minigames/Website.git"
+  },
+  "keywords": [
+    "legacy",
+    "console",
+    "edition",
+    "lem",
+    "legacy",
+    "edition",
+    "minigames",
+    "lce",
+    "console",
+    "minigames",
+    "battle",
+    "glide",
+    "tumble"
+  ],
+  "author": "Dexrn ZacAttack <dexrn@hotmail.com> (https://dexrnzacattack.github.io/)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Legacy-Edition-Minigames/Website/issues"
+  },
+  "homepage": "https://github.com/Legacy-Edition-Minigames/Website#readme",
+  "devDependencies": {
+    "@types/node": "^20.12.11",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "marked": "^12.0.2",
+    "path": "^0.12.7",
+    "vite": "^5.2.11"
+  }
+}

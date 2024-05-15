@@ -1,20 +1,64 @@
----
-layout: default
-title: "Home"
----
-
-<div class="guibox center">
-	Achievements are broken at the moment and will randomly delete themselves from your savedata. A solution will be made in the 1.20.5 version of LEM.
-</div>
-
-<div class="guibox center">
-	<div class="button-list">
-		<a class="minecraft-button center" href="{{ site.baseurl }}/about">About</a>
-		<a class="minecraft-button center" href="{{ site.baseurl }}/join">How to join</a>
-		<a class="minecraft-button center" href="{{ site.baseurl }}/rules">Server Rules</a>
-		<a class="minecraft-button center" href="{{ site.baseurl }}/blog">Blog</a>
-		<a class="minecraft-button center" href="{{ site.baseurl }}/faq">Frequently Asked Questions</a>
-		<a class="minecraft-button center" href="{{ site.baseurl }}/patreon">Patreon</a>
-		<a class="minecraft-button center" href="{{ site.baseurl }}/credits">Credits</a>
-	</div>
-</div>
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/css/style.css">
+		<link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+		<title>Home - Legacy Edition Minigames</title>
+		<link rel="preload" as="image" href="/assets/btn-minecraft-hover.png">
+		<link rel="preload" as="image" href="/assets/btn-panorama-hover.png">
+		<meta content="Home" property="og:title">
+    	<meta content="legacyminigames.net" property="og:site_name">
+    	<meta content="/assets/post-image-placeholder.png" property="og:image">
+		<link type="application/json+oembed" href="/assets/oembed.json">
+    </head>
+    <body>
+		<link rel="stylesheet" class="theme">
+		<div class="panorama-button pixelated" title="Toggle panorama movement" onclick="triggerPanoramaMovement();"></div>
+			<div class="backdrop-blur"></div>
+			<audio id="music">
+				<source src="/assets/menu2.ogg" type="audio/ogg">
+			</audio>
+			<audio id="musicHalloween">
+				<source src="/assets/halloween.ogg" type="audio/ogg">
+			</audio>
+			<audio id="musicFestive">
+				<source src="/assets/flake.ogg" type="audio/ogg">
+      </audio>
+			<audio id="musicAprilFools">
+				<source src="/assets/aprilfools.ogg" type="audio/ogg">
+			</audio>
+			<audio id="click">
+				<source src="/assets/click.ogg" type="audio/ogg">
+			</audio>
+			<audio id="hover">
+				<source src="/assets/hover.ogg" type="audio/ogg">
+			</audio>
+			<audio id="clickAprilFools">
+				<source src="/assets/aprilfools/click.ogg" type="audio/ogg">
+			</audio>
+			<div class="container">
+				<a href="/"><span class="logo"></span></a>
+    		    <div class="guibox center">
+					Achievements are broken at the moment and will randomly delete themselves from your savedata. A solution will be made in the 1.20.5 version of LEM.
+				</div>
+				
+				<div class="guibox center">
+					<div class="button-list">
+						<a class="minecraft-button center" href="/about/">About</a>
+						<a class="minecraft-button center" href="/join/">How to join</a>
+						<a class="minecraft-button center" href="/rules/">Server Rules</a>
+						<a class="minecraft-button center" href="/blog/">Blog</a>
+						<a class="minecraft-button center" href="/faq/">Frequently Asked Questions</a>
+						<a class="minecraft-button center" href="/patreon/">Patreon</a>
+						<a class="minecraft-button center" href="/credits/">Credits</a>
+					</div>
+				</div>
+				
+				<div class="guibox center" style="font-size: 0.90em;">
+					LEM is not associated with Mojang Studios or 4J Studios.<br>
+					NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG OR MICROSOFT.
+				</div>
+			</div>
+    </body>
+    <script type="module" src="/scripts/global.ts"></script>
+</html>

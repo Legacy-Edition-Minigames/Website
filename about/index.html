@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="/css/style.css">
+		<link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+		<title>About - Legacy Edition Minigames</title>
+
+		<link rel="preload" as="image" href="/assets/btn-minecraft-hover.png">
+		<link rel="preload" as="image" href="/assets/btn-panorama-hover.png">
+		<meta content="About" property="og:title">
+		<meta content="legacyminigames.net" property="og:site_name">
+		<meta
+			content="{% if page.image %}{{ page.image }}{% else %}/assets/post-image-placeholder.png{% endif %}"
+			property="og:image">
+		<link type="application/json+oembed" href="/assets/oembed.json">
+	</head>
+	<body>
+		<link rel="stylesheet" class="theme">
+		<div class="panorama-button pixelated" title="Toggle panorama movement"
+			onclick="triggerPanoramaMovement();"></div>
+		<div class="backdrop-blur"></div>
+		<audio id="music">
+			<source src="/assets/menu2.ogg" type="audio/ogg">
+		</audio>
+		<audio id="musicHalloween">
+			<source src="/assets/halloween.ogg" type="audio/ogg">
+		</audio>
+		<audio id="musicFestive">
+			<source src="/assets/flake.ogg" type="audio/ogg">
+		</audio>
+		<audio id="musicAprilFools">
+			<source src="/assets/aprilfools.ogg" type="audio/ogg">
+		</audio>
+		<audio id="click">
+			<source src="/assets/click.ogg" type="audio/ogg">
+		</audio>
+		<audio id="hover">
+			<source src="/assets/hover.ogg" type="audio/ogg">
+		</audio>
+		<audio id="clickAprilFools">
+			<source src="/assets/aprilfools/click.ogg" type="audio/ogg">
+		</audio>
+		<div class="container">
+			<a href="/"><span class="logo"></span></a>
+			<link rel="preload" as="image" href="/assets/btn-github-hover.png">
+			<link rel="preload" as="image" href="/assets/btn-patreon-hover.png">
+			<link rel="preload" as="image" href="/assets/btn-youtube-hover.png">
+
+			<div class="guibox center">
+				<p>Legacy Edition Minigames is a set of open source LCE<sup><span
+							title="Legacy Console Edition"
+							style="text-decoration: underline #000 dotted; cursor: help;" \>?</sup>
+						mini game remakes!</p>
+					<p>Currently only available for Java Edtion.</p>
+					<a href="/github/" target='_blank'><span class="github-button"></span></a>
+					<a href="/patreon/"><span class="patreon-button"></span></a> <a
+						href="/youtube/" target='_blank'><span class="youtube-button"></span></a>
+					<p>LEM focuses on remaking the Mini Games from the discontinued Legacy
+						Console edition, while also enhancing and adding new content at the same
+						time.</p>
+					<p>This includes quality of life improvements, modding support,
+						re-imaginings of the game through remastered content, and new
+						features.</p>
+					<p>LEM is developed by <a href="https://github.com/DBTDerpbox"
+							target='_blank'>Emmie</a>, <a href="https://github.com/Kyrptonaught"
+							target='_blank'>Kyrptonaught</a> and <a
+							href="https://github.com/senseiwells" target='_blank'>Senseiwells</a>,
+						for more info see the credits page.</p>
+					<div class="button-list">
+						<a class="minecraft-button center"
+							href="https://status.legacyminigames.net">Server Status</a>
+						<a class="minecraft-button center" href="/credits/">Credits</a>
+						<a class="minecraft-button center" href="/">Return</a>
+					</div>
+				</div>
+				<div class="guibox center" style="font-size: 0.90em;">
+					LEM is not associated with Mojang Studios or 4J Studios.<br>
+					NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH
+					MOJANG OR MICROSOFT.
+				</div>
+			</div>
+		</body>
+		<script src="/scripts/global.ts" type="module"></script>
+	</html>
