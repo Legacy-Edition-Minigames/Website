@@ -13,7 +13,7 @@ main-text: |
 
   **Do not harass the Legacy4J or LEM team about this issue, both of them are very aware of it.**
 
-  Currently know issues with using Legacy4J on LEM:
+  Currently known issues with using Legacy4J on LEM:
 
   - Inability to use the voting book
 
