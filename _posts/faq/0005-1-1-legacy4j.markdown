@@ -1,0 +1,28 @@
+---
+layout: faq
+title: "Will Legacy4J be supported?"
+image: /assets/faq/legacy4j.png
+permalink: /faq/legacy4j
+type: faq
+preview-text: | 
+  Legacy4J is currently incompatible with LEM and breaks multiple UI elements on LEM.
+main-text: | 
+  Legacy4J is currently incompatible with LEM and breaks multiple UI elements on LEM.
+
+  We are currently talking with the Legacy4J developers about this issue, and a solution is planned but it will take a significant amount of time to implement as a large amount of LEM's UIs will need to be remade to make this possible.
+
+  **Do not harass the Legacy4J or LEM team about this issue, both of them are very aware of it.**
+
+  Currently know issues with using Legacy4J on LEM:
+
+  - Inability to use the voting book
+
+  - UI elements in weird positions
+
+  - UI elements failing to render
+
+  - UI elements at incorrect scales
+
+  - Incompatibility with LEM Client Helper
+markdown: true
+---
