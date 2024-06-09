@@ -24,5 +24,7 @@ main-text: |
   - UI elements at incorrect scales
 
   - Incompatibility with LEM Client Helper
+
+  To anyone curious as to why this happens, its because LEM's UI system was built around the expectation of the vanilla locations of UI elements. Legacy4J moves *all* of these UI elements in some way, causing the UI to look very broken. As for the voting book, Legacy4J doesn't have clickEvent support in book UIs.
 markdown: true
 ---
