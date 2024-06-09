@@ -9,6 +9,8 @@ preview-text: |
 main-text: | 
   "Clients" in the sense of Lunar Client, Badlion Client, Feather client, etc are not recommended for LEM. They very often break LEM's UI features and in some cases make the game near unplayable (Lunar Client for example), due to all of this it is highly suggested to use one of the options listed below instead.
 
+  **Notice:** Re-Console is **NOT** compatible with LEM and it is not recommended to use at the moment. More information [here.](legacy4j)
+  
   1 - [Console-idated](https://modrinth.com/modpack/console-idated): Console-idated is a modpack that attempts to mimic the look of LCE, and has LEM compatibility with few compromises.
   
   LEM Compatibility: Great<br><br>
