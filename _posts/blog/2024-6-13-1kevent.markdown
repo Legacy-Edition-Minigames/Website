@@ -21,8 +21,8 @@ main-text: |
 
   The event starts at:
 
-  # 14:00 UTC
-
-  ### Notice: The event has been delayed by a few hours, sorry for the inconvience
+  # The event has started!
+  
+  ### Join at legacyminigames.net on 1.20.4
 markdown: true
 ---
