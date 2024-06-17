@@ -19,10 +19,8 @@ main-text: |
 
   We hope everyone involved has fun, see you there!
 
-  The event starts at:
+  # The event has ended!
 
-  # 14:00 UTC
-
-  ### Notice: The event has been delayed by a few hours, sorry for the inconvience
+  Thanks to everyone who participated! We hope to see you again soon!
 markdown: true
 ---
