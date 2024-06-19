@@ -73,7 +73,7 @@ main-text: |
 
   You may have noticed that invite requests are disabled, we received an extremely large amount of them a month ago, we won't give names but some people mentioned the project that resulted in the invite requests being flooded, to the point where its not humanly possible to read through them without just not working on the server instead. So we're changing plans.
 
-  We are likely to stop working on feature updates after ModTools 2 is out and focus on just preparing the server for a public enviornment to release it a little sooner than expected. It is still going to be a while from now but it seems like this is better than spending time that we could use on this on making a new invite request system that can handle multiple people doing requests at once.
+  We are likely to stop working on feature updates after ModTools 2 is out and focus on just preparing the server for a public environment to release it a little sooner than expected. It is still going to be a while from now but it seems like this is better than spending time that we could use on this on making a new invite request system that can handle multiple people doing requests at once.
 
   Thanks for reading all to the end again! It means a lot to have people willing to read all of this and seeing all the people interested in the project, thank you!
 markdown: true
