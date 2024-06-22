@@ -9,6 +9,8 @@ preview-text: |
 main-text: | 
   Legacy4J is currently incompatible with LEM and breaks multiple UI elements on LEM.
 
+  ### If you are using Re-Console, make sure you are using version 0.5.3 or above. Previous versions have an issue that could result in a cheating ban.
+
   We are currently talking with the Legacy4J developers about this issue, and a solution is planned but it will take a significant amount of time to implement as a large amount of LEM's UIs will need to be remade to make this possible.
 
   **Do not harass the Legacy4J or LEM team about this issue, both of them are very aware of it.**
