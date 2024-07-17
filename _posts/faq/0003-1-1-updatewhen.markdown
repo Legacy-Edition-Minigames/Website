@@ -18,5 +18,9 @@ main-text: |
   # Current stable version: 1.20.4
 
   # Current experimental version: 1.20.4
+
+  ## 1.21 Version
+
+  We are currently making some very large backend changes to LEM, for both ModTools 2 and LEM as a whole. This means the next version will take a while to release, which includes the release of 1.21 support. **There is no ETA of when it will be available at this time.**
 markdown: true
 ---
