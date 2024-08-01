@@ -17,7 +17,7 @@ main-text: |
 
   Currently known issues with using Legacy4J on LEM:
 
-  - Inability to use the voting book
+  - Chat box covering the host menu
 
   - UI elements in weird positions
 
