@@ -10,8 +10,7 @@ preview-text: |
   We are doing a Public Event! (August 8th)
 main-text: | 
   We are opening the server to the public on the 8th, we will not explain.
-  <script>
-    <style>body {background-image: url('../assets/blog/8event/panorama.png');}</style>
+  <style>body {background-image: url('../assets/blog/8event/panorama.png');}</style>
   
   We are doing a Public Event! (August 8th)
 
