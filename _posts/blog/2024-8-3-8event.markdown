@@ -20,8 +20,8 @@ main-text: |
 
   We hope everyone involved has fun, see you there!
 
-  # The event is currently active!
-  
-  Join at legacyminigames.net on 1.20.4
+  # The 8 has ended.
+
+  The event lasted longer than planned, lasting a total of 2 days, Thanks to everyone who attended! We hope you had a good time.
 markdown: true
 ---
