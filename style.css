@@ -169,10 +169,10 @@
   .multiple-credits-grid {
 	  display: grid;
 	  grid-template-columns: repeat(2, 1fr);
-	  grid-template-areas: 	"a b"
-				  "c b"
-				  "d e"
-				  "f g"
+	  grid-template-areas: 	"a a"
+				  "c b" 
+				  "d b" 
+				  "e f" 
 				  "h i";
 	  gap: 5px;
   }
