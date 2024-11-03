@@ -7,7 +7,7 @@ type: blog
 preview-text: | 
   To celebrate both Halloween and the LEM YouTube channel reaching 2000 subscribers, LEM will be public this weekend!
 
-  This event is taking place during November 2-3.
+  This event is taking place during November 2-4.
 main-text: | 
   <script>
     var overide = true;
@@ -15,7 +15,7 @@ main-text: |
   </script>
   To celebrate both Halloween and the LEM YouTube channel reaching 2000 subscribers, LEM will be public this weekend!
 
-  This event is taking place during November 2-3.
+  This event is taking place during November 2-4.
 
   We're temporarily opening the server up to the public on the weekend. There will be no sign-ups or anything like that required to participate, If you've been wanting to try the server out before it goes public this would be your chance!
 
