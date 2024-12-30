@@ -23,8 +23,6 @@ main-text: |
 
   We hope everyone involved has fun, see you there!
 
-  # The event starts at 12 AM CST
-
-  (The event may start later than expected depending on conditions)
+  # The event has ended.
 markdown: true
 ---
