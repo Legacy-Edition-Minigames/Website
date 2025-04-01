@@ -1,12 +1,15 @@
 ---
 layout: post
-title: "January 2024 Progresss update"
+title: ""
 image: /assets/blog/january-2024-progress-update.png
 permalink: /blog/january-2024-progress-update
 type: blog
 preview-text: | 
-  Well, hasn't it been a few busy months? We'll talk more about that at the bottom though, lets get to it!
+  
 main-text: | 
+  <style>
+  .guibox {color:rgb(136, 11, 241);}
+  </style>
   Well, hasn't it been a few busy months? We'll talk more about that at the bottom though, lets get to it!
 
   ### What's new?
@@ -27,11 +30,11 @@ main-text: |
 
   - **Redesigned Logos** The LEM Logos have been redesigned again, this is to avoid concerns regarding Minecraft's branding guidelines.
   
-  - **Official YouTube channel** LEM now has an [official YouTube channel](https://www.youtube.com/channel/UCATvhUMrXp4d-gwtW0uL0MA)! No videos have been uploaded there yet but the trailer will be moved there soon, expect things like demonstrations of new features to be uploaded there. We'll also probably do livestreams there too!
+  - **Official YouTube channel** LEM now has an official YouTube channel! No videos have been uploaded there yet but the trailer will be moved there soon, expect things like demonstrations of new features to be uploaded there. We'll also probably do livestreams there too!
 
-  - **R26.8 released** Resource version 26.8 has been released, you can find the full changelog [here](https://github.com/Legacy-Edition-Minigames/Minigame-Resources/releases/tag/R26.8).
+  - **R26.8 released** Resource version 26.8 has been released, you can find the full changelog here.
 
-  - **New domain** We have a new domain again, more information can be found on [this blogpost](new-domain)
+  - **New domain** We have a new domain again, more information can be found on this blogpost
 
   ### What's being worked on?
 

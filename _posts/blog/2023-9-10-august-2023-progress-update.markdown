@@ -1,12 +1,15 @@
 ---
 layout: post
-title: "August 2023 Progresss update"
+title: ""
 image: /assets/blog/july-2023-progress-update/thumb.png
 permalink: /blog/august-2023-progress-update
 type: blog
 preview-text: | 
-  Hello again! This month doesn't have as many big changes as last month, but some exciting things are being worked on!
+  
 main-text: | 
+  <style>
+  .guibox {color:rgb(136, 11, 241);}
+  </style>
   Hello again! This month doesn't have as many big changes as last month, but some exciting things are being worked on!
 
   ### What's new?
@@ -34,7 +37,7 @@ main-text: |
   
     <img src="../assets/blog/august-2023-progress-update/modtools.png" class="pixelated" width="90%" height="90%">
 
-  - **New Documentation** LEM is getting its documentation rewritten, making it easier to find what you're looking for while providing better explanations to questions. You can see the current work in progress version [here!](https://docs.legacyminigames.xyz)
+  - **New Documentation** LEM is getting its documentation rewritten, making it easier to find what you're looking for while providing better explanations to questions. You can see the current work in progress version here!
 
 markdown: true
 ---

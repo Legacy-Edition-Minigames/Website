@@ -1,16 +1,19 @@
 ---
 layout: post
-title: "October 2023 Progresss update"
+title: ""
 image: /assets/blog/october-2023-progress-update/thumb.png
 permalink: /blog/october-2023-progress-update
 type: blog
 preview-text: | 
-  Welcome back! There's been a lot that has changed since the last time we've posted one of these, lets get started!
+  
 main-text: | 
   <script>
     var overide = true;
     var halloweenModeCheck = true;
   </script>
+  <style>
+  .guibox {color:rgb(220, 128, 39);}
+  </style>
   Welcome back! There's been a lot that has changed since the last time we've posted one of these, lets get started!
 
   ### What's new?

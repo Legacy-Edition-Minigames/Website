@@ -18,10 +18,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Legacy Edition Minigames
+title: Jeremiah Edition Games
 description: >- # this means to ignore newlines until "baseurl:"
-  LEM is a set of open source LCE? mini game remakes!
-  These are meant to be used in Minecraft: Java Edition!
+  Jeremiah Edition Games is my really cool remakes of the minigames from console edition
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.legacyminigames.net" # the base hostname & protocol for your site, e.g. http://example.com
 pmc_username: Derpbox

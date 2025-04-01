@@ -1,19 +1,20 @@
 ---
 layout: post
-title: "May 2024 Progresss update"
+title: ""
 image: /assets/blog/may-2024-progress-update.png
 permalink: /blog/may-2024-progress-update
 type: blog
 preview-text: | 
-  It has been a long while since we've done one of these, let's begin!
-
-  ### Before we start
+  
 main-text: | 
+  <style>
+  .guibox {color:rgb(136, 11, 241);}
+  </style>
   It has been a long while since we've done one of these, let's begin!
 
   ### Before we start
 
-  It's worth mentioning, we now also do video progress updates! You can find them [here!](https://www.youtube.com/playlist?list=PLtHQsKobsxzbW6f5uStXNY2PIz03cRtDo)
+  It's worth mentioning, we now also do video progress updates! You can find them here!
 
   ### What's new?
 
@@ -33,7 +34,7 @@ main-text: |
 
   - There is an overhauled achievement menu being worked on
 
-  - New panorama renderer that supports more displays and is more accurate (Thanks [Dawn](https://github.com/Oranamous)!)
+  - New panorama renderer that supports more displays and is more accurate (Thanks Dawn!)
 
   - Block reach in the lobby will now match Creative Mode, just like LCE
 

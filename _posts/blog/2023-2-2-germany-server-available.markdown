@@ -1,19 +1,20 @@
 ---
 layout: post
-title: "Germany battle server now available"
+title: ""
 image: /assets/blog/introducing-blog.png
 permalink: /blog/germany-server-available
 type: blog
 preview-text: | 
-  A new battle server located in Germany is now available!
-
-  The IP for this germany server is germany.legacyminigames.xyz
+  
 main-text: | 
+  <style>
+  .guibox {color:rgb(136, 11, 241);}
+  </style>
   A new battle server located in Germany is now available!
 
   The IP for this germany server is **germany.legacyminigames.xyz**
 
-  ### Massive thanks for [strich3](https://github.com/strich3) for providing the server hosting!
+  ### Massive thanks for strich3 for providing the server hosting!
 
   If you have connection issues with the main US server, this server located in Germany might be for you.
 

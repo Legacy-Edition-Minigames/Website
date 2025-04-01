@@ -1,12 +1,15 @@
 ---
 layout: faq
-title: "Why is the server a Closed Alpha?"
+title: ""
 image: /assets/faq/whitelist.png
 permalink: /faq/whitelist
 type: faq
 preview-text: | 
-  There are multiple reasons why the server is in a closed alpha state, listed here are the major ones that led to the decision to make the server a closed alpha.
+  
 main-text: | 
+  <style>
+  .guibox {color:rgb(136, 11, 241);}
+  </style>
   There are multiple reasons why the server is in a closed alpha state, listed here are the major ones that led to the decision to make the server a closed alpha.
 
   - Currently, we don't have enough moderators to handle the server in a public enviornment. We also still need to work on all the tools for said moderators.
@@ -17,7 +20,7 @@ main-text: |
 
   - Many features are still not completed at the moment, for example the newer menu system is still very incomplete and lacks a lot of options.
 
-  You can see the original blogpost about the server going into a closed alpha [here](../blog/where-has-lem-been).
+  You can see the original blogpost about the server going into a closed alpha here.
 
   ### When will it go public again?
 
@@ -27,6 +30,6 @@ main-text: |
 
   ### How can I join currently?
 
-  It used to be possible to send an invite request to be able to join, however due to a huge influx of invite requests it became impossible to manage it with our current resources. We plan to work on going public instead of re-opening invite requests. In the meantime, check out [Weekend Events](../blog/weekendevents) for trying out the server.
+  It used to be possible to send an invite request to be able to join, however due to a huge influx of invite requests it became impossible to manage it with our current resources. We plan to work on going public instead of re-opening invite requests. In the meantime, check out Weekend Events for trying out the server.
 markdown: true
 ---

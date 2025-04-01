@@ -1,14 +1,15 @@
 ---
 layout: post
-title: "Why has development been slow?"
+title: ""
 image: /assets/blog/slow-development.png
 permalink: /blog/slow-development
 type: blog
 preview-text: | 
-  LEM development has been slow recently, so... what's been happening with the project over the past few months?
-
-  Being honest, not much. Most of the development team has been experiencing a lot of availability and personal issues ever since the middle of 2024. We won't get into the details, but it feels like we're due to give an explanation for the lack of progress and what our plans are from here on out.
+  
 main-text: | 
+  <style>
+  .guibox {color:rgb(136, 11, 241);}
+  </style>
   LEM development has been slow recently, so... what's been happening with the project over the past few months?
 
   Being honest, not much. Most of the development team has been experiencing a lot of availability and personal issues ever since the middle of 2024. We won't get into the details, but it feels like we're due to give an explanation for the lack of progress and what our plans are from here on out.

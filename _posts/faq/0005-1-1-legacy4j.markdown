@@ -1,32 +1,32 @@
 ---
 layout: faq
-title: "Will Legacy4J be supported?"
+title: "does legacy4j work"
 image: /assets/faq/legacy4j.png
 permalink: /faq/legacy4j
 type: faq
 preview-text: | 
-  Legacy4J is currently incompatible with LEM and breaks multiple UI elements on LEM.
+  Legacy4J is not allowed because its not made for me
+
+  the developer s that made it should of made Legacy4Jeremiah, made it FOR ME!!! it is disgusting to me that it is not made FOR ME, JEREMIAH!!!!
 main-text: | 
-  Legacy4J is currently incompatible with LEM and breaks multiple UI elements on LEM.
+  Legacy4J is not allowed because its not made for me
 
-  ### If you are using Re-Console, make sure you are using version 0.5.3 or above. Previous versions have an issue that could result in a cheating ban.
+  the developer s that made it should of made Legacy4Jeremiah, made it FOR ME!!! it is disgusting to me that it is not made FOR ME, JEREMIAH!!!!
 
-  We are currently talking with the Legacy4J developers about this issue, and a solution is planned but it will take a significant amount of time to implement as a large amount of LEM's UIs will need to be remade to make this possible.
+  i am the best jeremiah that has ever jeremiahed, i dont get why they didnt made the mnod for me
 
-  **Do not harass the Legacy4J or LEM team about this issue, both of them are very aware of it.**
+  the mod is also really bad with my games (JEG, the games that i made) it breaks a lot
 
-  Currently known issues with using Legacy4J on LEM:
+  - the chat box DOESNT WORK!!!
 
-  - Chat box covering the host menu
+  - all my cool interfacde elements are BROKEN and in the wrong spots
 
-  - UI elements in weird positions
+  - some of my interfaces are GONE!! THEY STOLE IT!!!!
 
-  - UI elements failing to render
+  - my elements of interface are the WRONG SIZE!!! CREIMES!!!!
 
-  - UI elements at incorrect scales
+  - it doesnt work with Jeremiah Client Assistant
 
-  - Incompatibility with LEM Client Helper
-
-  To anyone curious as to why this happens, its because LEM's UI system was built around the expectation of the vanilla locations of UI elements. Legacy4J moves *all* of these UI elements in some way, causing the UI to look very broken.
+  to anyone who knows why this happens PLEASE TELL ME I DONT KNOW WHY IT DOESNT WORK
 markdown: true
 ---

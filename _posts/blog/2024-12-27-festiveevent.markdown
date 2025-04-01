@@ -1,18 +1,19 @@
 ---
 layout: post
-title: "Festive public event"
+title: ""
 image: /assets/blog/festiveevent.png
 permalink: /blog/festiveevent
 type: blog
 preview-text: | 
-  Merry christmas (once again), LEM will be public this weekend!
-
-  This event is taking place during December 28-30.
+  
 main-text: | 
   <script>
     var overide = true;
     var festiveModeCheck = true;
   </script>
+  <style>
+  .guibox {color:rgb(9, 109, 27);}
+  </style>
   Merry christmas (once again), LEM will be public this weekend!
 
   This event is taking place during December 28-30.
@@ -23,6 +24,6 @@ main-text: |
 
   We hope everyone involved has fun, see you there!
 
-  # The event has ended.
+  The event has ended.
 markdown: true
 ---

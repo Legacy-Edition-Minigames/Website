@@ -1,12 +1,15 @@
 ---
 layout: post
-title: "We have a new domain... again"
+title: ""
 image: /assets/blog/new-domain.png
 permalink: /blog/new-domain
 type: blog
 preview-text: | 
-  Hello! You may or may not have noticed that the domain for this project is now legacyminigames.net and not legacyminigames.xyz, there's a bit more of an explanation to this than you'd expect for this kind of change.
+  
 main-text: | 
+  <style>
+  .guibox {color:rgb(136, 11, 241);}
+  </style>
   Hello! You may or may not have noticed that the domain for this project is now legacyminigames**.net** and not legacyminigames**.xyz**, there's a bit more of an explanation to this than you'd expect for this kind of change.
 
   ### Why was it changed again so recently? Wasn't it changed july?

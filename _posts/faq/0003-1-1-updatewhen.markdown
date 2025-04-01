@@ -1,26 +1,20 @@
 ---
 layout: faq
-title: "When will the latest version be supported?"
+title: "why does the latest mc veresion not work"
 image: /assets/faq/updatewhen.png
 permalink: /faq/updatewhen
 type: faq
 preview-text: | 
-  Updating the server is a lengthy process, taking a significant amount of effort from multiple developers. Please be patient.
+  mojang keeps updating minecraft to add new features whichj BREAKS MY GAMES!!!!
 
-  It takes on average 2 months for the server to be fully updated and tested with said update, however this can be delayed if there are any major breaking changes.
+  it takes ME, Jeremiah, MONTHS!!! MONTHS to fix my games
 main-text: | 
-  Updating the server is a lengthy process, taking a significant amount of effort from multiple developers. Please be patient.
+  mojang keeps updating minecraft to add new features whichj BREAKS MY GAMES!!!!
 
-  It takes on average 2 months for the server to be fully updated and tested with said update, however this can be delayed if there are any major breaking changes.
+  it takes ME, Jeremiah, MONTHS!!! MONTHS to fix my games
 
-  When updates are ready for testing, they will become available on the Experimental Server, joined with the IP *test.legacyminigames.net*.
+  when im ready to test my new versions of my games that work on mojangs new versions i will tell you
 
-  # Current stable version: 1.20.4
-
-  # Current experimental version: 1.20.4
-
-  ## 1.21 Version
-
-  We are currently making some very large backend changes to LEM, for both ModTools 2 and LEM as a whole. This means the next version will take a while to release, which includes the release of 1.21 support. **There is no ETA of when it will be available at this time.**
+  please come to my game tests of my games
 markdown: true
 ---

@@ -1,14 +1,15 @@
 ---
 layout: post
-title: "1000 Subscribers Event"
+title: ""
 image: /assets/blog/1kevent.png
 permalink: /blog/1kevent
 type: blog
 preview-text: | 
-  The LEM YouTube channel now has 1000 subscribers! Thank you!
   
-  As a thanks, we are doing a Public Event this weekend! (June 15-16)
 main-text: | 
+  <style>
+  .guibox {color:rgb(136, 11, 241);}
+  </style>
   The LEM YouTube channel now has 1000 subscribers! Thank you!
   
   As a thanks, we are doing a Public Event this weekend! (June 15-16)
@@ -19,7 +20,7 @@ main-text: |
 
   We hope everyone involved has fun, see you there!
 
-  # The event has ended!
+  The event has ended!
 
   Thanks to everyone who participated! We hope to see you again soon!
 markdown: true

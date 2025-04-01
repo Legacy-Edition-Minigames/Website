@@ -77,6 +77,7 @@
 	  border-image-slice: 128 128 fill;
 	  border-image-width: 64px;
 	  margin-top: 10px;
+	  color: #ffffff;
   }
   
   .logo {
@@ -132,7 +133,7 @@
 	  image-rendering: pixelated;
 	  line-height: 32px;
 	  text-decoration: none;
-	  color: #ffffff;
+	  color: #9d53df;
 	  text-shadow: 1px 1px 0 #000;
 	  text-align: center;
 	  cursor: pointer;

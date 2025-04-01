@@ -1,18 +1,19 @@
 ---
 layout: post
-title: "Halloween Event"
+title: ""
 image: /assets/blog/2kevent.png
 permalink: /blog/2kevent
 type: blog
 preview-text: | 
-  To celebrate both Halloween and the LEM YouTube channel reaching 2000 subscribers, LEM will be public this weekend!
-
-  This event is taking place during November 2-4.
+  
 main-text: | 
   <script>
     var overide = true;
     var halloweenModeCheck = true;
   </script>
+  <style>
+  .guibox {color:rgb(220, 128, 39);}
+  </style>
   To celebrate both Halloween and the LEM YouTube channel reaching 2000 subscribers, LEM will be public this weekend!
 
   This event is taking place during November 2-4.
@@ -23,6 +24,6 @@ main-text: |
 
   We hope everyone involved has fun, see you there!
 
-  # The event has ended.
+  The event has ended.
 markdown: true
 ---

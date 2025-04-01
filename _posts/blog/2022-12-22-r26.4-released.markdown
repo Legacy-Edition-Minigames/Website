@@ -1,14 +1,15 @@
 ---
 layout: post
-title: "R26.4 Now Available!"
+title: ""
 image: /assets/blog/r26-4-released.png
 permalink: /blog/r26-4-released
 type: blog
 preview-text: | 
-  A new resource version is now available!
   
-  R26.4 introduces a few new features, notably 1.19.3 support
 main-text: | 
+  <style>
+  .guibox {color:rgb(136, 11, 241);}
+  </style>
   A new resource version is now available!
   
   R26.4 introduces a few new features, notably 1.19.3 support

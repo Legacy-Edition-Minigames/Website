@@ -1,16 +1,19 @@
 ---
 layout: post
-title: "Late Christmas Event"
+title: ""
 image: /assets/blog/late-christmas.png
 permalink: /blog/late-christmas
 type: blog
 preview-text: | 
-  Merry (late) Christmas! We're doing an event this weekend (December 30th to 31st)
+  
 main-text: | 
   <script>
     var overide = true;
     var festiveModeCheck = true;
   </script>
+  <style>
+  .guibox {color:rgb(9, 109, 27);}
+  </style>
   Merry (late) Christmas! We're doing an event this weekend (December 30th to 31st)
 
   What is this event you might ask? We're temporarily opening the server up to the public on the weekend to see how it does. There will be no sign-ups or anything like that required to participate, If you've been thinking introducing some friends to the project this would be a great time to do so!
@@ -19,8 +22,8 @@ main-text: |
 
   We hope everyone involved has fun, see you there!
 
-  # The event has ended
+  The event has ended
 
-  Thanks to everyone who participated! If you would like to keep playing please make an [Invite Request](../joinrequest)!
+  Thanks to everyone who participated! If you would like to keep playing please make an Invite Request!
 markdown: true
 ---

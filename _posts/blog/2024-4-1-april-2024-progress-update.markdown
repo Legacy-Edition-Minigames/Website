@@ -1,16 +1,19 @@
 ---
 layout: post
-title: "April 2024 Progresss update"
+title: ""
 image: /assets/blog/april-2024-progress-update.png
 permalink: /blog/april-2024-progress-update
 type: blog
 preview-text: | 
-  Welcome! You can probably tell that we've made some pretty big changes to the LEM project. No time to waste, lets get started!
+  
 main-text: | 
   <script>
     var overide = true;
     var aprilfoolsModeCheck = true;
   </script>
+  <style>
+  .guibox {color:rgb(39, 47, 129);}
+  </style>
   Welcome! You can probably tell that we've made some pretty big changes to the LEM project. No time to waste, lets get started!
 
   ### The big change
@@ -21,7 +24,7 @@ main-text: |
 
   Since Minecraft is a 3D game, we need to move to another game to allow for this kind of change, the closest option has been chosen: Terraria!
 
-  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Gfc877yfDLM?si=uziI9zH_I5iC-nao" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/gnjhdiufbngyudfhbgnuyjadfsf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
   ### What now?
 
@@ -39,7 +42,7 @@ main-text: |
 
   - And more!
 
-  # To celebrate this, we are temporarily making the server public for the entirety of April 1st!
+  To celebrate this, we are temporarily making the server public for the entirety of April 1st!
 
   We thank everyone here for their understanding of why we would of made such a decision like this. We hope to see you in Terraria: Legacy Edition Minigames!
 markdown: true
