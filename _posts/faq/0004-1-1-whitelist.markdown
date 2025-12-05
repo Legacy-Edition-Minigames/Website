@@ -23,7 +23,7 @@ main-text: |
 
   With the development team being pretty small, it will take a long time to deal with all of these issues. We hope once its ready to go public again that we can avoid having all the issues we had before.
   
-  There is no date that is set in stone for LEM going public, but it will likely either be late 2024 or in 2025.
+  There is no date that is set in stone for LEM going public. We wanted to do it by the end of 2025, but due to a series of events that happened that year, that is very likely not happening. We hope we can do it sometime in 2026.
 
   ### How can I join currently?
 
