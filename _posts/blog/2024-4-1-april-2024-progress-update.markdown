@@ -21,7 +21,7 @@ main-text: |
 
   Since Minecraft is a 3D game, we need to move to another game to allow for this kind of change, the closest option has been chosen: Terraria!
 
-  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Gfc877yfDLM?si=uziI9zH_I5iC-nao" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Gfc877yfDLM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
   ### What now?
 

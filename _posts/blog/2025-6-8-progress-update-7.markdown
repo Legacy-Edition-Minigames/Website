@@ -7,7 +7,7 @@ type: blog
 preview-text: | 
   As you may have noticed, this is our first progress update in a while. There has been substantial progress on the 2.0 version of the server, and we are now beginning to test it. The code is still in an alpha state, and we do not have a set timeframe for public release.
 main-text: | 
-  <iframe width="100%" height="524" src="https://www.youtube-nocookie.com/embed/vBYNhxZVC-c?si=GkDymhFgsbPy6cRS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <iframe width="100%" height="524" src="https://www.youtube-nocookie.com/embed/vBYNhxZVC-c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
   # Welcome Back
   As you may have noticed, this is our first progress update in a while. There has been substantial progress on the 2.0 version of the server, and we are now beginning to test it. The code is still in an alpha state, and we do **not have a set timeframe for public release.**
