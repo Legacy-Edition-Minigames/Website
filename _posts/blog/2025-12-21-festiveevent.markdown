@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Festive public event"
+title: "Festive Public Event"
 image: /assets/blog/festiveevent25.png
 permalink: /blog/festiveevent25
 type: blog
