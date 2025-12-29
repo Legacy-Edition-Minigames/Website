@@ -23,7 +23,6 @@ main-text: |
 
   We hope everyone involved has fun, see you there!
 
-  # The event is currently active!
-  Go see how to join at [the join page.](../join)
+  # The event has ended.
 markdown: true
 ---
