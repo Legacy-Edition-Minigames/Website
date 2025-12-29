@@ -28,9 +28,5 @@ main-text: |
   ### How can I join currently?
 
   It used to be possible to send an invite request to be able to join, however due to a huge influx of invite requests it became impossible to manage it with our current resources. We plan to work on going public instead of re-opening invite requests. In the meantime, check out [Weekend Events](../blog/weekendevents) for trying out the server.
-
-  # Notice
-  
-  ### LEM is currently temporarily public! More information [Here](../blog/festiveevent25)
 markdown: true
 ---
