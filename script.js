@@ -115,6 +115,9 @@ function festiveMode() {
 function aprilfoolsMode() {
 	themeStyle.forEach(theme => {
 		theme.href = baseUrl + '/style-aprilfools.css';});
+	var Credits = document.getElementsByClassName('multiple-credits-grid');
+	var CreditType = Credits[0].querySelectorAll('b');
+	CreditType.forEach(bold => {bold.textContent = 'Cook';})
 }
 
 if (halloweenModeCheck == true) {
