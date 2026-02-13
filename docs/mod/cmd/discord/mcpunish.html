@@ -1,0 +1,52 @@
+---
+layout: default
+title: "Discord: MC Punishments"
+---
+
+<div class="guibox center">
+	<h1>Minecraft Punishments via Discord</h1>
+		<p>These are the commands for the Discord server for issuing punishments to the Minecraft server.</p>
+		<p>These do not sync with the Discord server at the moment, we plan on having it sync in the near future.</p>
+	<p><a href="{{ site.baseurl }}/docs/mod/cmd/discord/" class="minecraft-button center">Return</a></p>
+</div>
+<div class="guibox center">
+	<h1>Important Note</h1>
+		<p><b>Note:</b> To run commands, you will run them from Discord's slash command menu under the bot Derpbot 3.</p>
+		One of the options in most commands is a <span style="color: #0000AA">Server</span> option, the options are as follows:<br>
+		<span style="color: #0000AA">menu</span> - Menu Server<br>
+		<span style="color: #0000AA">main</span> - Battle Main<br>
+		<span style="color: #0000AA">alt</span> - Battle Alternate<br>
+		<span style="color: #0000AA">exp</span> - Battle Experimental<br>
+		<span style="color: #0000AA">germany</span> - Battle Germany
+		<p>This will determine what server the command will run inside of, if you don't pick anything it will default to the Menu server.</p>
+		<p>Note for commands with a <span style="color: #0000AA">[Duration]</span> option, you may specify <span style="color: #0000AA">none</span> to make your punishment permanent.</p>
+</div>
+<div class="guibox center">
+	<h2>Bans</h2>
+	<b>/mc-ban</b> [Player] [Server] [Duration] [Reason]<br>
+	Example: /mc-ban Steve main none Cheating
+</div>
+<div class="guibox center">
+	<h2>Mutes</h2>
+	<b>/mc-mute</b> [Player] [Server] [Duration] [Reason]<br>
+	Example: /mc-mute Steve 7d Spamming chat after a warning
+</div>
+<div class="guibox center">
+	<h2>Kicks</h2>
+	<b>/mc-kick</b> [Player] [Server] [Reason]<br>
+	Example: /mc-kick Steve main Idling
+</div>
+<div class="guibox center">
+	<h2>Warns</h2>
+	<b>Note:</b> Warns will only appear when the player is in the server, if they disconnect before being warned they will never see it. This will be fixed in the near future.<br>
+	For now, issue a lesser version of the next punishment, for example if they were spamming chat, mute them for a day instead.<br><br>
+	<b>/mc-warn</b> [Player] [Server] [Reason]<br>
+	Example: /mc-warn Steve Spamming chat
+</div>
+<div class="guibox center">
+	<h2>Punishment Removals</h2>
+	<b>Note:</b> When a player is IP banned, you will need to unban BOTH their user and IP ban, so you will need to run /unban-ip and /unban on their username.<br><br>
+	<b>/mc-unban</b> [Player] [Server] [Reason]<br>
+	<b>/mc-unmute</b> [Player] [Server] [Reason]<br>
+	Example: /mc-unban Steve menu Appealed
+</div>

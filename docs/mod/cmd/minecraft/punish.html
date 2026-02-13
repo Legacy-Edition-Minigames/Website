@@ -1,0 +1,57 @@
+---
+layout: default
+title: "MC: Punishment"
+---
+
+<div class="guibox center">
+	<h1>Punishments</h1>
+		<p>These are for issuing punishments in the Minecraft server.</p>
+		<p>These do not sync with the Discord server at the moment, we plan on having it sync in the near future.</p>
+	<p><a href="{{ site.baseurl }}/docs/mod/cmd/minecraft/" class="minecraft-button center">Return</a></p>
+</div>
+<div class="guibox center">
+	<h1>Important Note</h1>
+		<p>When issuing a punishment, make sure you know the difference between both a user ban and an IP ban.</p>
+		<p>A user ban bans just the username, joining on an alt account is very easy. These should only be used for offenses that affect that account in particular, like an innapropriate skin or username.</p>
+		<p>IP bans will ban BOTH the username and IP address and are used for most offenses.</p>
+		<p>Make <b>SURE</b> you use the right command! For example /ban vs /ban-ip will determine what kind of ban you are issuing!</p>
+</div>
+<div class="guibox center">
+	<h2>Punishment History</h2>
+	<b>/banhammer list </b> [Player]<br>
+	<p>Depending on the rule broken, you may need to check the player's punishment history to decide what to do. The punishments are listed from newest to oldest.</p>
+</div>
+<div class="guibox center">
+	<h2>Bans</h2>
+	<b>/ban</b> [Player] [Reason]<br>
+	<b>/ban-ip</b> [Player] [Reason]<br>
+	<b>/tempban</b> [Player] [Duration] [Reason]<br>
+	<b>/tempban-ip</b> [Player] [Duration] [Reason]<br>
+	Example: /tempban-ip Steve 7d Repeated explotation of bugs to stall matches
+</div>
+<div class="guibox center">
+	<h2>Mutes</h2>
+	<b>/mute</b> [Player] [Reason]<br>
+	<b>/tempmute</b> [Player] [Duration] [Reason]<br>
+	Example: /tempmute Steve 7d Spamming chat even after being warned
+</div>
+<div class="guibox center">
+	<h2>Kicks</h2>
+	<b>/kick</b> [Player] [Reason]<br>
+	Example: /kick Steve Intentionally stalling matches
+</div>
+<div class="guibox center">
+	<h2>Warns</h2>
+	<b>Note:</b> Warns will only appear when the player is in the server, if they disconnect before being warned they will never see it. This will be fixed in the near future.<br>
+	For now, issue a lesser version of the next punishment, for example if they were spamming chat, mute them for a day instead.<br><br>
+	<b>/warn</b> [Player] [Reason]<br>
+	Example: /tempmute Steve 7d Spamming chat
+</div>
+<div class="guibox center">
+	<h2>Punishment Removals</h2>
+	<b>Note:</b> When a player is IP banned, you will need to unban BOTH their user and IP ban, so you will need to run /unban-ip and /unban on their username.<br><br>
+	<b>/unban</b> [Player] [Reason]<br>
+	<b>/unban-ip</b> [Player] [Reason]<br>
+	<b>/unmute</b> [Player] [Reason]<br>
+	Example: /unban-ip Steve Appealed
+</div>
