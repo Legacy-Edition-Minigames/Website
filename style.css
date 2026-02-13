@@ -92,7 +92,7 @@
 	  background-image: url('assets/logo.png');
   }
   
-  .github-button, .patreon-button, .youtube-button {
+  .github-button, .patreon-button, .youtube-button, .twitch-button {
 	  display: inline-block;
 	  height: 80px;
 	  width: 80px;
@@ -104,11 +104,16 @@
 	  background-image: url('assets/btn-github.png');
   }
 
-  .youtube-button {
-	background-image: url('assets/btn-youtube.png');
-}
   .patreon-button {
 	  background-image: url('assets/btn-patreon.png');
+  }
+
+  .youtube-button {
+	  background-image: url('assets/btn-youtube.png');
+  }
+
+  .twitch-button {
+	  background-image: url('assets/btn-twitch.png');
   }
   
   .github-button:hover {
@@ -120,8 +125,12 @@
   }
 
   .youtube-button:hover {
-	background-image: url('assets/btn-youtube-hover.png');
-}
+	  background-image: url('assets/btn-youtube-hover.png');
+  }
+
+  .twitch-button:hover {
+	  background-image: url('assets/btn-twitch-hover.png');
+  }
   
   .minecraft-button {
 	  display: inline-block;
