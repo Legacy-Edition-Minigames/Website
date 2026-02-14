@@ -5,9 +5,9 @@ image: /assets/faq/modpack.png
 permalink: /faq/modpack
 type: faq
 preview-text: | 
-  "Clients" in the sense of Lunar Client, Badlion Client, Feather client, etc are not recommended for LEM. They very often break LEM's UI features and in some cases make the game near unplayable (Lunar Client for example), due to all of this it is highly suggested to use one of the options listed below instead.
+  "Clients" in the sense of Lunar Client, Badlion Client, Feather client, etc are not recommended for LEM. They very often break LEM's UI features and can make the experience a lot less stable and polished than it needs to be, due to all of this it is highly suggested to use one of the options listed below instead.
 main-text: | 
-  "Clients" in the sense of Lunar Client, Badlion Client, Feather client, etc are not recommended for LEM. They very often break LEM's UI features and in some cases make the game near unplayable (Lunar Client for example), due to all of this it is highly suggested to use one of the options listed below instead.
+  "Clients" in the sense of Lunar Client, Badlion Client, Feather client, etc are not recommended for LEM. They very often break LEM's UI features and can make the experience a lot less stable and polished than it needs to be, due to all of this it is highly suggested to use one of the options listed below instead.
 
   **Notice:** Re-Console is **NOT** compatible with LEM and it is not recommended to use at the moment. More information [here.](legacy4j)
   
