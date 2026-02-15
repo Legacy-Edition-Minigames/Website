@@ -5,28 +5,19 @@ image: /assets/faq/whitelist.png
 permalink: /faq/whitelist
 type: faq
 preview-text: | 
-  There are multiple reasons why the server is in a closed alpha state, listed here are the major ones that led to the decision to make the server a closed alpha.
+  LEM has been in a closed alpha state for multiple years now, this was done due to major issues we had during our originaly public era. We were short staffed on moderators, LEM's codebase was a lot more buggy back then, and a lot of features were still missing.
 main-text: | 
-  There are multiple reasons why the server is in a closed alpha state, listed here are the major ones that led to the decision to make the server a closed alpha.
+  ### February 15th Update:
 
-  - Currently, we don't have enough moderators to handle the server in a public enviornment. We also still need to work on all the tools for said moderators.
+  LEM has been in a closed alpha state for multiple years now, this was done due to major issues we had during our originaly public era. We were short staffed on moderators, LEM's codebase was a lot more buggy back then, and a lot of features were still missing.
 
-  - The code for the server is still very unstable, there are plenty of bugs and issues that you **will** run into when playing the server in its current state.
+  We originally planned to release once we had fixed all of the issues that we had, but its been almost 3 years since we entered our private era. We planned to be out of it 2 years ago.
 
-  - Cheaters were a major issue before we decided to move to a closed alpha, showing up every few hours. We do not have enough moderators or a proper system for reporting said cheaters.
+  While not all of the issues mentioned above have been fixed, a good chunk of them have been resolved or are very close to being resolved. 2.0 is almost done, and it being not written in a datapack it will be a lot easier to add features to, almost all missing features are in 2.0 and we plan to have all of them in 2.0 once it launches.
 
-  - Many features are still not completed at the moment, for example the newer menu system is still very incomplete and lacks a lot of options.
+  We've finally gotten into a state where we think we can safely launch the server into its second and hopefully permanent public era without too much issue, and to prevent having you all wait *another* few months to a year, we've decided it would be better to just do it now.
 
-  You can see the original blogpost about the server going into a closed alpha [here](../blog/where-has-lem-been).
-
-  ### When will it go public again?
-
-  With the development team being pretty small, it will take a long time to deal with all of these issues. We hope once its ready to go public again that we can avoid having all the issues we had before.
+  A stress test is planned on February 15-16 where we will open the server to the public to see how it will handle it, and if everything goes right, it should go public **very soon.**
   
-  There is no date that is set in stone for LEM going public. We wanted to do it by the end of 2025, but due to a series of events that happened that year, that is very likely not happening. We hope we can do it sometime in 2026.
-
-  ### How can I join currently?
-
-  It used to be possible to send an invite request to be able to join, however due to a huge influx of invite requests it became impossible to manage it with our current resources. We plan to work on going public instead of re-opening invite requests. In the meantime, check out [Weekend Events](../blog/weekendevents) for trying out the server.
 markdown: true
 ---
