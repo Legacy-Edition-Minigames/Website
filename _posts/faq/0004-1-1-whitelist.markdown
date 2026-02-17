@@ -18,8 +18,6 @@ main-text: |
   We've finally gotten into a state where we think we can safely launch the server into its second and hopefully permanent public era without too much issue, and to prevent having you all wait *another* few months to a year, we've decided it would be better to just do it now.
 
   A stress test is planned on February 15-16 where we will open the server to the public to see how it will handle it, and if everything goes right, it should go public **very soon.**
-  # Notice
   
-  ### The stress test mentioned above is active right now! More information [Here](../blog/festiveevent25)
 markdown: true
 ---
