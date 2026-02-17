@@ -13,8 +13,9 @@ main-text: |
 
   The event will be on the 15th and 16th. It might get extended depending on how things go.
 
-  We will be posting a much larger blogpost explaining why this is happening sooner than later, but for now...
+  We will be posting a much larger blogpost explaining why this is happening sooner than later very soon.
 
-  # Come join us on the 15th and 16th for the stress test!
+  ### February 17 update:
+  The test has been completed without any noticable performance issues, there are a few small issues we need to fix before we can launch but the launch should be **within the next few days.**
 markdown: true
 ---
