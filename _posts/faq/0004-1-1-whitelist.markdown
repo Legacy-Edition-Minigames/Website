@@ -18,6 +18,10 @@ main-text: |
   We've finally gotten into a state where we think we can safely launch the server into its second and hopefully permanent public era without too much issue, and to prevent having you all wait *another* few months to a year, we've decided it would be better to just do it now.
 
   We performed a stress test on February 15-16 and it went without any real issues, there's a few things we need to do before we can go public but it should not take too long at all.
+
+  ### February 19th Update:
+  We are releasing **TOMMOROW**.
+  More information [here!](../blog/tomorrow)
   
 markdown: true
 ---
