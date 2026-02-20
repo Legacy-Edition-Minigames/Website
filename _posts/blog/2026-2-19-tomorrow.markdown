@@ -37,9 +37,9 @@ main-text: |
 
   Its been 3 years. Its been 3 years since the server went into its private era, much longer than we planned it to be. While not all the issues we mentioned for why we went in to the private era have been fixed, a good chunk of them have. The codebase isn't as buggy as it used to be, most missing features are implimented, and our moderator tools have improved since then.
 
-  2.0 is also pretty close to being done, and with it not being in a datapack means we will be able to add features a lot easier and a lof of impossible features will now be possible, on top of that almost all the missing features are implimented in 2.0 with plans for all of them to be in it not long after it launches.
+  2.0 is also pretty close to being done, and with it not being in a datapack means we will be able to add features a lot easier and a lot of impossible features will now be possible, on top of that almost all the missing features are implimented in 2.0 with plans for all of them to be in it not long after it launches.
 
-  We beleive we are in a state where we can safely launch the server without too many issues, and instead of making you all wait even longer, we might as well just rip off the bandage and do it now.
+  We believe we are in a state where we can safely launch the server without too many issues, and instead of making you all wait even longer, we might as well just rip off the bandage and do it now.
 
   See you tomorrow.
 markdown: true
