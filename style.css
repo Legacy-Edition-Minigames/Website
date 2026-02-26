@@ -92,7 +92,7 @@
 	  background-image: url('assets/logo.png');
   }
   
-  .github-button, .patreon-button, .youtube-button, .twitch-button {
+  .github-button, .patreon-button, .youtube-button, .twitch-button, .instagram-button, .discord-button {
 	  display: inline-block;
 	  height: 80px;
 	  width: 80px;
@@ -115,6 +115,14 @@
   .twitch-button {
 	  background-image: url('assets/btn-twitch.png');
   }
+
+  .instagram-button {
+	  background-image: url('assets/btn-instagram.png');
+  }
+
+  .discord-button {
+	  background-image: url('assets/btn-discord.png');
+  }
   
   .github-button:hover {
 	  background-image: url('assets/btn-github-hover.png');
@@ -131,7 +139,15 @@
   .twitch-button:hover {
 	  background-image: url('assets/btn-twitch-hover.png');
   }
-  
+
+  .instagram-button:hover {
+	  background-image: url('assets/btn-instagram-hover.png');
+  }
+
+  .discord-button:hover {
+	  background-image: url('assets/btn-discord-hover.png');
+  }
+
   .minecraft-button {
 	  display: inline-block;
 	  width: 400px;
