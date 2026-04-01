@@ -32,9 +32,9 @@ if (curr_month == 10 && overide != true) { // halloween
 if (curr_month == 12 && overide != true) { // festive
 	festiveModeCheck = true;
 }
-if (curr_month == 4 && curr_day == 1 && overide != true) { // april fools
-    aprilfoolsModeCheck = true;
-}
+//if (curr_month == 4 && curr_day == 1 && overide != true) { // april fools
+//    aprilfoolsModeCheck = true;
+//}
 
 let menuMusic = "music"
 // Music
