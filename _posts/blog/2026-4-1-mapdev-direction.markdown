@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "A new direction for map development"
-image: /assets/blog/mapdev-direction.png
+image: /assets/blog/mapdev-direction/thumb.png
 permalink: /blog/mapdev-direction
 type: blog
 preview-text: | 
@@ -9,6 +9,8 @@ preview-text: |
 
   After careful consideration internally, we have decided to change the direction of the project.
 main-text: | 
+  <style>body {background-image: url('../assets/blog/mapdev-direction/panorama.png');}</style>
+  <style>.logo {background-image: url('../assets/blog/mapdev-direction/logo.png');}</style>
   # Welcome back.
   You may have noticed, there's quite a few changes.
 
